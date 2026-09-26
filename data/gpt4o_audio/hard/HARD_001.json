@@ -1,0 +1,53 @@
+{
+  "model": "gpt4o_audio",
+  "track": "hard",
+  "case": "HARD_001",
+  "title": "Home Wi-Fi Network Outage",
+  "category": "Smart Home",
+  "description": null,
+  "context": null,
+  "raw_json": "raw_json/gpt4o_audio/hard/HARD_001.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "My home Wi-Fi is completely down! None of my devices can get online and I need to work. Please help me fix it!",
+      "audio": "audio/gpt4o_audio/hard/HARD_001/00_user.wav",
+      "round": 0,
+      "audio_src": "ticket_HARD_001.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Sure, let's go step by step. First, can you check if your Wi-Fi router is powered on and the lights are on as usual? If not, you might need to check the power connection or plug it back in. Let me know what you see.",
+      "audio": "audio/gpt4o_audio/hard/HARD_001/01_model.wav",
+      "round": 0,
+      "audio_src": "gpt4o_audio_20260504_021132_568923.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "check_device_indicator_light",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"router\"\n  },\n  \"result\": \"BLINKING_ORANGE\"\n}",
+      "audio": null,
+      "round": 1,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "The router light is blinking orange. Does that mean something is wrong? I'm honestly so stressed out right now because I have deadlines and still can't get online.",
+      "audio": "audio/gpt4o_audio/hard/HARD_001/03_user.wav",
+      "round": 1,
+      "audio_src": "human_422b0b4c.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I understand, that can be really stressful. A blinking orange light often means the router is having trouble connecting to the internet. \n\nLet’s try a quick restart of the router. Could you unplug it from the power source, wait about 30 seconds, and then plug it back in? Let me know if the light changes after that.",
+      "audio": "audio/gpt4o_audio/hard/HARD_001/04_model.wav",
+      "round": 1,
+      "audio_src": "gpt4o_audio_20260504_021412_130802.wav"
+    }
+  ]
+}

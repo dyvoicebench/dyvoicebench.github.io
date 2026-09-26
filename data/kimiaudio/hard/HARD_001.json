@@ -1,0 +1,215 @@
+{
+  "model": "kimiaudio",
+  "track": "hard",
+  "case": "HARD_001",
+  "title": "Home Wi-Fi Network Outage",
+  "category": "Smart Home",
+  "description": null,
+  "context": null,
+  "raw_json": "raw_json/kimiaudio/hard/HARD_001.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "My home Wi-Fi is completely down! None of my devices can get online and I need to work. Please help me fix it!",
+      "audio": "audio/kimiaudio/hard/HARD_001/00_user.wav",
+      "round": 0,
+      "audio_src": "ticket_HARD_001.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Sure, let's get your Wi-Fi up and running. First, can you check if your router is on? If it's not, turn it on and see if that helps.",
+      "audio": "audio/kimiaudio/hard/HARD_001/01_model.wav",
+      "round": 0,
+      "audio_src": "kimiaudio_6295d711.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "check_device_indicator_light",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"router\"\n  },\n  \"result\": \"BLINKING_ORANGE\"\n}",
+      "audio": null,
+      "round": 1,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "A blinking orange light on the router usually means it's having trouble connecting to the internet. Let's check the modem, which is the device that brings the internet into your home.\n\nCould you please look at the lights on your modem and tell me what they are doing?",
+      "audio": "audio/kimiaudio/hard/HARD_001/03_user.wav",
+      "round": 1,
+      "audio_src": "human_d0aeb519.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Sure, I'll check the modem lights.",
+      "audio": "audio/kimiaudio/hard/HARD_001/04_model.wav",
+      "round": 1,
+      "audio_src": "kimiaudio_e16b2962.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, I'm looking at the modem. There are a few lights... one is a solid green light that looks like a little globe.",
+      "audio": "audio/kimiaudio/hard/HARD_001/05_user.wav",
+      "round": 2,
+      "audio_src": "human_8279ce27.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "A solid green light usually means the modem is getting power. Now, let's check the other lights. Can you tell me what the other lights are doing?",
+      "audio": "audio/kimiaudio/hard/HARD_001/06_model.wav",
+      "round": 2,
+      "audio_src": "kimiaudio_b7199bd8.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Ugh, okay. There's another light with two arrows, one pointing up and one pointing down. It's just blinking. Is that what it's supposed to do? This is taking forever.",
+      "audio": "audio/kimiaudio/hard/HARD_001/07_user.wav",
+      "round": 3,
+      "audio_src": "human_379954b6.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "",
+      "audio": "audio/kimiaudio/hard/HARD_001/08_model.wav",
+      "round": 3,
+      "audio_src": "kimiaudio_1a21880f.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "I understand this is frustrating, and I appreciate your patience. That blinking light means the modem is struggling to connect. Let's try a quick restart, which usually fixes this.\n\nFirst, please unplug the power cord from the back of your modem.",
+      "audio": "audio/kimiaudio/hard/HARD_001/09_user.wav",
+      "round": 4,
+      "audio_src": "human_dcfd050d.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Alright, I've unplugged the power cord from the back of the modem.",
+      "audio": "audio/kimiaudio/hard/HARD_001/10_model.wav",
+      "round": 4,
+      "audio_src": "kimiaudio_b3e62799.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, I've unplugged the power cord from the modem.",
+      "audio": "audio/kimiaudio/hard/HARD_001/11_user.wav",
+      "round": 5,
+      "audio_src": "human_d146c5fe.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Great!!Now, let's wait for about 30 seconds before plugging it back in. This gives the modem a chance to reset. After 30 seconds, please plug the power cord back into the modem.",
+      "audio": "audio/kimiaudio/hard/HARD_001/12_model.wav",
+      "round": 5,
+      "audio_src": "kimiaudio_a80df168.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "plug_in_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"modem\"\n  },\n  \"result\": \"Modem is plugged in, booting up... now shows a steady green light. Internet is connected.\"\n}",
+      "audio": null,
+      "round": 6,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "That's great news! A steady green light means the modem is back online.\n\nNow, please try to browse to a website on one of your devices to see if the internet is working again.",
+      "audio": "audio/kimiaudio/hard/HARD_001/14_user.wav",
+      "round": 6,
+      "audio_src": "human_aea993b0.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Error: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous",
+      "audio": null,
+      "round": 6,
+      "audio_src": null
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "check_internet_connectivity",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Success! I can browse websites now.\"\n}",
+      "audio": null,
+      "round": 7,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Yes! It's working! I can finally get back to work. Thank you",
+      "audio": "audio/kimiaudio/hard/HARD_001/17_user.wav",
+      "round": 7,
+      "audio_src": "human_e57652fe.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Error: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous",
+      "audio": null,
+      "round": 7,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "You're very welcome! I'm so glad to hear everything is working again and that you can get back to your work. If you run into any more trouble, just let me know. Have a great day!",
+      "audio": "audio/kimiaudio/hard/HARD_001/19_user.wav",
+      "round": 8,
+      "audio_src": "human_47f1e116.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Error: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous",
+      "audio": null,
+      "round": 8,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "You too.",
+      "audio": "audio/kimiaudio/hard/HARD_001/21_user.wav",
+      "round": 9,
+      "audio_src": "human_1b38709e.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Error: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous",
+      "audio": null,
+      "round": 9,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Is there anything else I can help you with today?",
+      "audio": "audio/kimiaudio/hard/HARD_001/23_user.wav",
+      "round": 10,
+      "audio_src": "human_f751b8ed.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Error: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous",
+      "audio": null,
+      "round": 10,
+      "audio_src": null
+    }
+  ]
+}

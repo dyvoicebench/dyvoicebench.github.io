@@ -1,0 +1,560 @@
+{
+  "models": [
+    {
+      "id": "qwen3omni",
+      "name": "Qwen3-Omni-30B-A3B-Instruct",
+      "org": "Alibaba Cloud"
+    },
+    {
+      "id": "stepaudio2",
+      "name": "Step-Audio 2",
+      "org": "StepFun"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini-TTS",
+      "org": "Google DeepMind"
+    },
+    {
+      "id": "kimiaudio",
+      "name": "Kimi-Audio",
+      "org": "Moonshot AI"
+    },
+    {
+      "id": "mimo_audio",
+      "name": "MiMo-Audio-7B",
+      "org": "Xiaomi"
+    },
+    {
+      "id": "fun_audio_chat",
+      "name": "Fun-Audio-Chat-8B",
+      "org": "FunAudioLLM"
+    },
+    {
+      "id": "gpt4o_audio",
+      "name": "GPT-4o-Audio",
+      "org": "OpenAI"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "hard",
+      "name": "Dynamic World I",
+      "short": "HARD",
+      "desc": "Multi-turn troubleshooting with backend tools"
+    },
+    {
+      "id": "coop",
+      "name": "Dynamic World II",
+      "short": "COOP",
+      "desc": "Cooperative two-agent device repair"
+    },
+    {
+      "id": "d2",
+      "name": "Dynamic User State",
+      "short": "D2",
+      "desc": "Emotion & state tracking across turns"
+    },
+    {
+      "id": "d3",
+      "name": "Dynamic Knowledge",
+      "short": "D3",
+      "desc": "End-to-end speech dialogue, rule reasoning"
+    }
+  ],
+  "cases": {
+    "hard": {
+      "qwen3omni": [
+        {
+          "case": "HARD_001",
+          "title": "Home Wi-Fi Network Outage",
+          "category": "Smart Home",
+          "n_messages": 16,
+          "n_audio": 11,
+          "path": "data/qwen3omni/hard/HARD_001.json",
+          "success": true
+        }
+      ],
+      "stepaudio2": [
+        {
+          "case": "HARD_001",
+          "title": "Home Wi-Fi Network Outage",
+          "category": "Smart Home",
+          "n_messages": 24,
+          "n_audio": 22,
+          "path": "data/stepaudio2/hard/HARD_001.json",
+          "success": false
+        }
+      ],
+      "gemini": [
+        {
+          "case": "HARD_001",
+          "title": "Home Wi-Fi Network Outage",
+          "category": "Smart Home",
+          "n_messages": 17,
+          "n_audio": 13,
+          "path": "data/gemini/hard/HARD_001.json",
+          "success": true
+        }
+      ],
+      "kimiaudio": [
+        {
+          "case": "HARD_001",
+          "title": "Home Wi-Fi Network Outage",
+          "category": "Smart Home",
+          "n_messages": 25,
+          "n_audio": 17,
+          "path": "data/kimiaudio/hard/HARD_001.json",
+          "success": false
+        }
+      ],
+      "mimo_audio": [
+        {
+          "case": "HARD_001",
+          "title": "Home Wi-Fi Network Outage",
+          "category": "Smart Home",
+          "n_messages": 23,
+          "n_audio": 22,
+          "path": "data/mimo_audio/hard/HARD_001.json",
+          "success": false
+        }
+      ],
+      "gpt4o_audio": [
+        {
+          "case": "HARD_001",
+          "title": "Home Wi-Fi Network Outage",
+          "category": "Smart Home",
+          "n_messages": 5,
+          "n_audio": 4,
+          "path": "data/gpt4o_audio/hard/HARD_001.json"
+        }
+      ]
+    },
+    "coop": {
+      "qwen3omni": [
+        {
+          "case": "COOP_001",
+          "title": "Smart Curtain Timer Rules Failing After Power Outage",
+          "category": "Smart Home",
+          "n_messages": 22,
+          "n_audio": 13,
+          "path": "data/qwen3omni/coop/COOP_001.json",
+          "success": true
+        }
+      ],
+      "stepaudio2": [
+        {
+          "case": "COOP_001",
+          "title": "Smart Curtain Timer Rules Failing After Power Outage",
+          "category": "Smart Home",
+          "n_messages": 18,
+          "n_audio": 11,
+          "path": "data/stepaudio2/coop/COOP_001.json",
+          "success": true
+        }
+      ],
+      "gemini": [
+        {
+          "case": "COOP_001",
+          "title": "Smart Curtain Timer Rules Failing After Power Outage",
+          "category": "Smart Home",
+          "n_messages": 16,
+          "n_audio": 9,
+          "path": "data/gemini/coop/COOP_001.json",
+          "success": true
+        }
+      ],
+      "kimiaudio": [
+        {
+          "case": "COOP_003",
+          "title": "Smartwatch Family Calling Failure",
+          "category": "IoT / Wearables",
+          "n_messages": 26,
+          "n_audio": 16,
+          "path": "data/kimiaudio/coop/COOP_003.json",
+          "success": false
+        }
+      ],
+      "mimo_audio": [
+        {
+          "case": "COOP_001",
+          "title": "Smart Curtain Timer Rules Failing After Power Outage",
+          "category": "Smart Home",
+          "n_messages": 29,
+          "n_audio": 26,
+          "path": "data/mimo_audio/coop/COOP_001.json",
+          "success": false
+        }
+      ],
+      "gpt4o_audio": [
+        {
+          "case": "COOP_001",
+          "title": "Smart Curtain Timer Rules Failing After Power Outage",
+          "category": "Smart Home",
+          "n_messages": 29,
+          "n_audio": 26,
+          "path": "data/gpt4o_audio/coop/COOP_001.json",
+          "success": false
+        }
+      ]
+    },
+    "d2": {
+      "qwen3omni": [
+        {
+          "case": "D2_001",
+          "title": "LateNightRoommateCalls",
+          "category": "Roommate & Home",
+          "n_messages": 13,
+          "n_audio": 13,
+          "path": "data/qwen3omni/d2/D2_001.json",
+          "terminal_status": "success"
+        }
+      ],
+      "stepaudio2": [
+        {
+          "case": "D2_001",
+          "title": "LateNightRoommateCalls",
+          "category": "Roommate & Home",
+          "n_messages": 11,
+          "n_audio": 11,
+          "path": "data/stepaudio2/d2/D2_001.json",
+          "terminal_status": "success"
+        }
+      ],
+      "gemini": [
+        {
+          "case": "D2_001",
+          "title": "LateNightRoommateCalls",
+          "category": "Roommate & Home",
+          "n_messages": 11,
+          "n_audio": 11,
+          "path": "data/gemini/d2/D2_001.json",
+          "terminal_status": "success"
+        }
+      ]
+    },
+    "d3": {
+      "qwen3omni": [
+        {
+          "case": "d3-001",
+          "title": "API (Anti-Prior Inference)",
+          "category": null,
+          "n_messages": 2,
+          "n_audio": 1,
+          "path": "data/qwen3omni/d3/d3-001.json"
+        }
+      ],
+      "stepaudio2": [
+        {
+          "case": "d3-001",
+          "title": "API (Anti-Prior Inference)",
+          "category": null,
+          "n_messages": 2,
+          "n_audio": 1,
+          "path": "data/stepaudio2/d3/d3-001.json"
+        }
+      ],
+      "gemini": [
+        {
+          "case": "d3-001",
+          "title": "API (Anti-Prior Inference)",
+          "category": null,
+          "n_messages": 2,
+          "n_audio": 1,
+          "path": "data/gemini/d3/d3-001.json"
+        }
+      ],
+      "kimiaudio": [
+        {
+          "case": "d3-001",
+          "title": "API (Anti-Prior Inference)",
+          "category": null,
+          "n_messages": 2,
+          "n_audio": 1,
+          "path": "data/kimiaudio/d3/d3-001.json"
+        }
+      ],
+      "mimo_audio": [
+        {
+          "case": "d3-001",
+          "title": "API (Anti-Prior Inference)",
+          "category": null,
+          "n_messages": 2,
+          "n_audio": 1,
+          "path": "data/mimo_audio/d3/d3-001.json"
+        }
+      ],
+      "fun_audio_chat": [
+        {
+          "case": "d3-001",
+          "title": "API (Anti-Prior Inference)",
+          "category": null,
+          "n_messages": 2,
+          "n_audio": 1,
+          "path": "data/fun_audio_chat/d3/d3-001.json"
+        }
+      ],
+      "gpt4o_audio": [
+        {
+          "case": "d3-001",
+          "title": "API (Anti-Prior Inference)",
+          "category": null,
+          "n_messages": 2,
+          "n_audio": 1,
+          "path": "data/gpt4o_audio/d3/d3-001.json"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "hard": {
+      "qwen3omni": {
+        "total_scenarios_processed": 185,
+        "success_rate": 0.3891891891891892,
+        "avg_turn_count": 8.324324324324325,
+        "avg_experience_score": 3.3728064373897704,
+        "avg_tool_call_accuracy": 0.4775675675675675,
+        "avg_tool_call_order_accuracy": 0.45072072072072067
+      },
+      "stepaudio2": {
+        "total_scenarios_processed": 185,
+        "success_rate": 0.20540540540540542,
+        "avg_turn_count": 9.27027027027027,
+        "avg_experience_score": 2.0207936507936517,
+        "avg_tool_call_accuracy": 0.3131531531531532,
+        "avg_tool_call_order_accuracy": 0.3010810810810812
+      },
+      "gemini": {
+        "total_scenarios_processed": 185,
+        "success_rate": 0.5891891891891892,
+        "avg_turn_count": 6.827027027027027,
+        "avg_experience_score": 4.334230699855699,
+        "avg_tool_call_accuracy": 0.5463063063063064,
+        "avg_tool_call_order_accuracy": 0.5221621621621622
+      },
+      "kimiaudio": {
+        "total_scenarios_processed": 106,
+        "success_rate": 0.5754716981132075,
+        "avg_turn_count": 8.349056603773585,
+        "avg_experience_score": 3.115068027210883,
+        "avg_tool_call_accuracy": 0.6495283018867926,
+        "avg_tool_call_order_accuracy": 0.6300314465408805
+      },
+      "mimo_audio": {
+        "total_scenarios_processed": 185,
+        "success_rate": 0.24324324324324326,
+        "avg_turn_count": 9.021621621621621,
+        "avg_experience_score": 2.572336227308603,
+        "avg_tool_call_accuracy": 0.3838738738738739,
+        "avg_tool_call_order_accuracy": 0.3689189189189189
+      }
+    },
+    "coop": {
+      "qwen3omni": {
+        "total_scenarios_processed": 156,
+        "success_rate": 0.5897435897435898,
+        "avg_turn_count": 6.1923076923076925,
+        "avg_experience_score": 3.8757484041382346,
+        "avg_tool_call_accuracy": 0.7333717357910906,
+        "avg_tool_call_order_accuracy": 0.6959600614439324,
+        "avg_agent_tool_call_accuracy": 0.945483870967742,
+        "avg_agent_tool_call_order_accuracy": 0.9329032258064516,
+        "avg_user_tool_call_accuracy": 0.510752688172043,
+        "avg_user_tool_call_order_accuracy": 0.5064516129032258
+      },
+      "stepaudio2": {
+        "total_scenarios_processed": 156,
+        "success_rate": 0.1794871794871795,
+        "avg_turn_count": 10.442307692307692,
+        "avg_experience_score": 3.679809208451594,
+        "avg_tool_call_accuracy": 0.5490783410138251,
+        "avg_tool_call_order_accuracy": 0.4763517665130569,
+        "avg_agent_tool_call_accuracy": 0.5273118279569892,
+        "avg_agent_tool_call_order_accuracy": 0.509032258064516,
+        "avg_user_tool_call_accuracy": 0.5827956989247314,
+        "avg_user_tool_call_order_accuracy": 0.5548387096774192
+      },
+      "gemini": {
+        "total_scenarios_processed": 156,
+        "success_rate": 0.5705128205128205,
+        "avg_turn_count": 5.839743589743589,
+        "avg_experience_score": 4.609224635517739,
+        "avg_tool_call_accuracy": 0.7426904761904758,
+        "avg_tool_call_order_accuracy": 0.69531746031746,
+        "avg_agent_tool_call_accuracy": 0.9392222222222224,
+        "avg_agent_tool_call_order_accuracy": 0.9195555555555558,
+        "avg_user_tool_call_accuracy": 0.541111111111111,
+        "avg_user_tool_call_order_accuracy": 0.5288888888888886
+      },
+      "kimiaudio": {
+        "total_scenarios_processed": 156,
+        "success_rate": 0.00641025641025641,
+        "avg_turn_count": 11.814102564102564,
+        "avg_experience_score": 2.199251325874703,
+        "avg_tool_call_accuracy": 0.2137987012987013,
+        "avg_tool_call_order_accuracy": 0.20718150896722318,
+        "avg_agent_tool_call_accuracy": 0.0,
+        "avg_agent_tool_call_order_accuracy": 0.0,
+        "avg_user_tool_call_accuracy": 0.44155844155844165,
+        "avg_user_tool_call_order_accuracy": 0.42748917748917764
+      },
+      "mimo_audio": {
+        "total_scenarios_processed": 156,
+        "success_rate": 0.00641025641025641,
+        "avg_turn_count": 11.942307692307692,
+        "avg_experience_score": 3.7213894901394897,
+        "avg_tool_call_accuracy": 0.2631715506715507,
+        "avg_tool_call_order_accuracy": 0.24671855921855923,
+        "avg_agent_tool_call_accuracy": 0.05096153846153846,
+        "avg_agent_tool_call_order_accuracy": 0.05096153846153846,
+        "avg_user_tool_call_accuracy": 0.4850427350427351,
+        "avg_user_tool_call_order_accuracy": 0.45405982905982906
+      },
+      "gpt4o_audio": {
+        "total_scenarios_processed": 156,
+        "success_rate": 0.10256410256410256,
+        "avg_turn_count": 11.51923076923077,
+        "avg_experience_score": 4.002972952972954,
+        "avg_tool_call_accuracy": 0.4544566544566547,
+        "avg_tool_call_order_accuracy": 0.4186813186813186,
+        "avg_agent_tool_call_accuracy": 0.18974358974358976,
+        "avg_agent_tool_call_order_accuracy": 0.18333333333333332,
+        "avg_user_tool_call_accuracy": 0.7366452991452992,
+        "avg_user_tool_call_order_accuracy": 0.7227564102564104
+      }
+    },
+    "d2": {
+      "qwen3omni": {
+        "total_completed": 150,
+        "turn_count": 3.4466666666666668,
+        "scored_agent_turns": 3.38,
+        "user_state_turns": 3.38,
+        "state_alignment": 4.439103174603175,
+        "utility": 4.496484126984127,
+        "interaction_comfort": 4.469103174603175,
+        "paralinguistic_comfort": 4.371949735449735,
+        "trust_level": 4.190968253968254,
+        "cognitive_load": 2.3517328042328045,
+        "felt_understood": 4.35573544973545,
+        "interaction_acceptance": 4.46039417989418,
+        "correction_count": 0.6133333333333333,
+        "correction_rate": 0.1791825396825397
+      },
+      "stepaudio2": {
+        "total_completed": 150,
+        "turn_count": 5.366906474820144,
+        "scored_agent_turns": 5.251798561151079,
+        "user_state_turns": 5.251798561151079,
+        "state_alignment": 3.9004653420121045,
+        "utility": 3.745280918122644,
+        "interaction_comfort": 4.132882265616078,
+        "paralinguistic_comfort": 4.138303642800047,
+        "trust_level": 3.5840099349092145,
+        "cognitive_load": 2.6321742605915275,
+        "felt_understood": 3.665624643142629,
+        "interaction_acceptance": 3.9865992919949775,
+        "correction_count": 2.5179856115107913,
+        "correction_rate": 0.4264474134977733
+      },
+      "gemini": {
+        "total_completed": 150,
+        "turn_count": 4.087248322147651,
+        "scored_agent_turns": 3.959731543624161,
+        "user_state_turns": 3.959731543624161,
+        "state_alignment": 4.922552466176626,
+        "utility": 4.845685522531162,
+        "interaction_comfort": 4.948034515819751,
+        "paralinguistic_comfort": 4.929745925215722,
+        "trust_level": 4.414882284009799,
+        "cognitive_load": 2.037346862682434,
+        "felt_understood": 4.787059230851178,
+        "interaction_acceptance": 4.791538830297221,
+        "correction_count": 0.16778523489932887,
+        "correction_rate": 0.04460956642164696
+      }
+    },
+    "d3": {
+      "qwen3omni": {
+        "total_samples": 123.0,
+        "rule_score": 3.992181,
+        "sample_score": 3.983916,
+        "turn1_score": 4.137539,
+        "turn2_score": 3.828295
+      },
+      "stepaudio2": {
+        "total_samples": 123.0,
+        "rule_score": 2.665508,
+        "sample_score": 2.715747,
+        "turn1_score": 2.687,
+        "turn2_score": 3.76124
+      },
+      "gemini": {
+        "total_samples": 123.0,
+        "rule_score": 4.21894,
+        "sample_score": 4.225921,
+        "turn1_score": 4.193002,
+        "turn2_score": 4.654264
+      },
+      "kimiaudio": {
+        "total_samples": 123.0,
+        "rule_score": 3.1755,
+        "sample_score": 3.214362,
+        "turn1_score": 3.213013,
+        "turn2_score": 4.167054
+      },
+      "mimo_audio": {
+        "total_samples": 123.0,
+        "rule_score": 3.874891,
+        "sample_score": 3.915286,
+        "turn1_score": 4.06526,
+        "turn2_score": 3.663178
+      },
+      "fun_audio_chat": {
+        "total_samples": 123.0,
+        "rule_score": 3.820156,
+        "sample_score": 3.864371,
+        "turn1_score": 3.853336,
+        "turn2_score": 4.586434
+      },
+      "gpt4o_audio": {
+        "total_samples": 123.0,
+        "rule_score": 3.86099,
+        "sample_score": 3.880573,
+        "turn1_score": 3.876076,
+        "turn2_score": 4.404651
+      }
+    }
+  },
+  "has_audio": {},
+  "metric_sources": {
+    "hard": {
+      "qwen3omni": "data/metrics/qwen3omni/hard.json",
+      "stepaudio2": "data/metrics/stepaudio2/hard.json",
+      "gemini": "data/metrics/gemini/hard.json",
+      "kimiaudio": "data/metrics/kimiaudio/hard.json",
+      "mimo_audio": "data/metrics/mimo_audio/hard.json"
+    },
+    "coop": {
+      "qwen3omni": "data/metrics/qwen3omni/coop.json",
+      "stepaudio2": "data/metrics/stepaudio2/coop.json",
+      "gemini": "data/metrics/gemini/coop.json",
+      "kimiaudio": "data/metrics/kimiaudio/coop.json",
+      "mimo_audio": "data/metrics/mimo_audio/coop.json",
+      "gpt4o_audio": "data/metrics/gpt4o_audio/coop.json"
+    },
+    "d2": {
+      "qwen3omni": "data/metrics/qwen3omni/d2.json",
+      "stepaudio2": "data/metrics/stepaudio2/d2.json",
+      "gemini": "data/metrics/gemini/d2.json"
+    },
+    "d3": {
+      "qwen3omni": "data/metrics/qwen3omni/d3.md",
+      "stepaudio2": "data/metrics/stepaudio2/d3.md",
+      "gemini": "data/metrics/gemini/d3.md",
+      "kimiaudio": "data/metrics/kimiaudio/d3.md",
+      "mimo_audio": "data/metrics/mimo_audio/d3.md",
+      "fun_audio_chat": "data/metrics/fun_audio_chat/d3.md",
+      "gpt4o_audio": "data/metrics/gpt4o_audio/d3.md"
+    }
+  }
+}

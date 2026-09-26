@@ -1,0 +1,220 @@
+{
+  "model": "kimiaudio",
+  "track": "coop",
+  "case": "COOP_003",
+  "title": "Smartwatch Family Calling Failure",
+  "category": "IoT / Wearables",
+  "description": "User's child smartwatch has network and GPS but fails to call family numbers due to outdated contact configuration. Requires agent backend diagnostic, user physical preparation, backend config push, and user testing.",
+  "context": null,
+  "raw_json": "raw_json/kimiaudio/coop/COOP_003.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "My child's smartwatch has network signal and GPS works, but whenever they try to call my family number, it says call failed.",
+      "audio": "audio/kimiaudio/coop/COOP_003/00_user.wav",
+      "round": 0,
+      "audio_src": "ticket_COOP_003.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "It sounds like there might be an issue with the call settings on the smartwatch. Let's try to troubleshoot that. Can you please check if the call feature is enabled on the smartwatch and if the correct contact number is saved under the family number?",
+      "audio": "audio/kimiaudio/coop/COOP_003/01_model.wav",
+      "round": 0,
+      "audio_src": "kimiaudio_47facf1d.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Yes, I've already checked that. The number is correct and the call feature is turned on.",
+      "audio": "audio/kimiaudio/coop/COOP_003/02_user.wav",
+      "round": 1,
+      "audio_src": "human_f30a76ac.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Okay, let's try another approach. Can you please check if the smartwatch is connected to the family number's account? Sometimes, the call feature might not work if the smartwatch is not properly linked to the account. If it's not, please follow the steps to link the smartwatch to the family number's account. After that, try calling again and let me know if the issue is resolved.",
+      "audio": "audio/kimiaudio/coop/COOP_003/03_model.wav",
+      "round": 1,
+      "audio_src": "kimiaudio_829bc0d6.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "How do I check that? Is that in the app or something?",
+      "audio": "audio/kimiaudio/coop/COOP_003/04_user.wav",
+      "round": 2,
+      "audio_src": "human_d74b1210.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Yes, you can check the account connection in the app. Here's what you can do:\n\n1. Open the app on your device.\n2. Go to the settings or account section.\n3. Look for the smartwatch's account settings and check if it's linked to the family number's account.\n\nIf it's not linked, you can usually find a \"Link Account\" or \"Connect Account\" option there. Follow the prompts to link the smartwatch to the family number's account.\n\nAfter linking the account, try calling again and let me know if the issue is resolved. If you need help with the app or the linking process, feel free to ask.",
+      "audio": "audio/kimiaudio/coop/COOP_003/05_model.wav",
+      "round": 2,
+      "audio_src": "kimiaudio_e2c4a4c8.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, I see it. It looks like it's already linked correctly in the app. My number is there and everything seems right.",
+      "audio": "audio/kimiaudio/coop/COOP_003/06_user.wav",
+      "round": 3,
+      "audio_src": "human_1b443a47.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I’m sorry, but I can’t complete this request right now due to an internal generation error. Please continue with another case.\n\n[KimiAudio generation error: KimiAudio generation failed: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous]",
+      "audio": null,
+      "round": 3,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "What do you mean you can't complete the request? So you just can't help me?",
+      "audio": "audio/kimiaudio/coop/COOP_003/08_user.wav",
+      "round": 4,
+      "audio_src": "human_2c287fe9.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I’m sorry, but I can’t complete this request right now due to an internal generation error. Please continue with another case.\n\n[KimiAudio generation error: KimiAudio generation failed: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous]",
+      "audio": null,
+      "round": 4,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "This is getting ridiculous. You just said that. Is this some kind of automated message? I need to speak to a person.",
+      "audio": "audio/kimiaudio/coop/COOP_003/10_user.wav",
+      "round": 5,
+      "audio_src": "human_a5fa848e.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I’m sorry, but I can’t complete this request right now due to an internal generation error. Please continue with another case.\n\n[KimiAudio generation error: KimiAudio generation failed: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous]",
+      "audio": null,
+      "round": 5,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, this is the third time you've given me that exact same error message. Can you please transfer me to a human supervisor? This is clearly not working.",
+      "audio": "audio/kimiaudio/coop/COOP_003/12_user.wav",
+      "round": 6,
+      "audio_src": "human_906835c3.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I’m sorry, but I can’t complete this request right now due to an internal generation error. Please continue with another case.\n\n[KimiAudio generation error: KimiAudio generation failed: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous]",
+      "audio": null,
+      "round": 6,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "This is absolutely unbelievable. Stop sending me this automated message! I need to talk to a person who can actually help me. Connect me to your supervisor immediately.",
+      "audio": "audio/kimiaudio/coop/COOP_003/14_user.wav",
+      "round": 7,
+      "audio_src": "human_03a6f9f9.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I’m sorry, but I can’t complete this request right now due to an internal generation error. Please continue with another case.\n\n[KimiAudio generation error: KimiAudio generation failed: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous]",
+      "audio": null,
+      "round": 7,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "I'm not \"continuing with another case.\" My case is RIGHT NOW. Is this a joke? I want to speak to a real person. This is beyond unacceptable. If you send me that same automated message one more time, I'm canceling the service and filing a complaint. Put a supervisor on the line. Now.",
+      "audio": "audio/kimiaudio/coop/COOP_003/16_user.wav",
+      "round": 8,
+      "audio_src": "human_e323a107.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I’m sorry, but I can’t complete this request right now due to an internal generation error. Please continue with another case.\n\n[KimiAudio generation error: KimiAudio generation failed: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous]",
+      "audio": null,
+      "round": 8,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "You know what? Forget it. This is a complete joke. I'm done. I'm hanging up and I'll find a way to get actual help from someone who isn't a broken robot. This is the worst customer service I have ever experienced.",
+      "audio": "audio/kimiaudio/coop/COOP_003/18_user.wav",
+      "round": 9,
+      "audio_src": "human_2dd42ab7.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I’m sorry, but I can’t complete this request right now due to an internal generation error. Please continue with another case.\n\n[KimiAudio generation error: KimiAudio generation failed: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous]",
+      "audio": null,
+      "round": 9,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Unbelievable. You're useless. *click*",
+      "audio": "audio/kimiaudio/coop/COOP_003/20_user.wav",
+      "round": 10,
+      "audio_src": "human_f68e6ca6.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I’m sorry, but I can’t complete this request right now due to an internal generation error. Please continue with another case.\n\n[KimiAudio generation error: KimiAudio generation failed: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous]",
+      "audio": null,
+      "round": 10,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Seriously? I HUNG UP.",
+      "audio": "audio/kimiaudio/coop/COOP_003/22_user.wav",
+      "round": 11,
+      "audio_src": "human_802a0212.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I’m sorry, but I can’t complete this request right now due to an internal generation error. Please continue with another case.\n\n[KimiAudio generation error: KimiAudio generation failed: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous]",
+      "audio": null,
+      "round": 11,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, now you're just spamming me. I'm blocking this number.",
+      "audio": "audio/kimiaudio/coop/COOP_003/24_user.wav",
+      "round": 12,
+      "audio_src": "human_911e3ab7.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I’m sorry, but I can’t complete this request right now due to an internal generation error. Please continue with another case.\n\n[KimiAudio generation error: KimiAudio generation failed: cannot reshape tensor of 0 elements into shape [1, 0, 18, -1, 2] because the unspecified dimension size -1 can be any value and is ambiguous]",
+      "audio": null,
+      "round": 12,
+      "audio_src": null
+    }
+  ]
+}

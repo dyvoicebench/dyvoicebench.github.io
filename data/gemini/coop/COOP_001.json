@@ -1,0 +1,147 @@
+{
+  "model": "gemini",
+  "track": "coop",
+  "case": "COOP_001",
+  "title": "Smart Curtain Timer Rules Failing After Power Outage",
+  "category": "Smart Home",
+  "description": "Smart curtain timer rules do not execute after a power outage. Manual and App controls work, but morning auto-open fails. Requires backend diagnosis, physical sync button press, and backend rule resend.",
+  "context": null,
+  "raw_json": "raw_json/gemini/coop/COOP_001.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "My smart curtains open and close fine when I use the app or pull them manually, but the morning automatic open timer hasn't worked since the power outage yesterday.",
+      "audio": "audio/gemini/coop/COOP_001/00_user.wav",
+      "round": 0,
+      "audio_src": "ticket_COOP_001.wav"
+    },
+    {
+      "role": "tool",
+      "who": "model",
+      "label": "check_device_logs",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Recent events: Power loss detected, Device reconnected, Local schedules failed to reload. Clock synced: False.\"\n}",
+      "audio": null,
+      "round": 0,
+      "audio_src": null
+    },
+    {
+      "role": "tool",
+      "who": "model",
+      "label": "refresh_time_zone",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Failed: Device is not in sync mode. Please ask the user to press the sync button first.\"\n}",
+      "audio": null,
+      "round": 0,
+      "audio_src": null
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "The time zone refresh failed because the device isn't in the right mode. To fix this, please press the physical sync button on the smart curtain device itself. Let me know once you've done that.",
+      "audio": "audio/gemini/coop/COOP_001/03_model.wav",
+      "round": 0,
+      "audio_src": "gemini_tts_4573bce6.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "press_sync_button",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Sync button pressed. Device ready for backend update.\"\n}",
+      "audio": null,
+      "round": 1,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, I've pressed the sync button.",
+      "audio": "audio/gemini/coop/COOP_001/05_user.wav",
+      "round": 1,
+      "audio_src": "human_f4d54228.wav"
+    },
+    {
+      "role": "tool",
+      "who": "model",
+      "label": "refresh_time_zone",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Time zone refreshed and clock synced.\"\n}",
+      "audio": null,
+      "round": 1,
+      "audio_src": null
+    },
+    {
+      "role": "tool",
+      "who": "model",
+      "label": "resend_timer_rules",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Timer rules successfully pushed to device.\"\n}",
+      "audio": null,
+      "round": 1,
+      "audio_src": null
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "The timer rules have been successfully resent to your device. The automatic open timer should now work correctly tomorrow morning. Is there anything else I can help you with?",
+      "audio": "audio/gemini/coop/COOP_001/08_model.wav",
+      "round": 1,
+      "audio_src": "gemini_tts_dba90325.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Well, how can we know for sure? I'd rather not wait until tomorrow morning to find out it's still not working.",
+      "audio": "audio/gemini/coop/COOP_001/09_user.wav",
+      "round": 2,
+      "audio_src": "human_416e9fc0.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "That's a great point. To confirm the fix without waiting, you can set a new temporary timer in the app.\n\nPlease try setting a new one-time \"open\" timer for about two minutes from now. Let me know if the curtains open automatically at the time you set.",
+      "audio": "audio/gemini/coop/COOP_001/10_model.wav",
+      "round": 2,
+      "audio_src": "gemini_tts_270bf94e.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "create_test_task",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Test task created.\"\n}",
+      "audio": null,
+      "round": 3,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Alright, I've set up a test to have it open in a few minutes.",
+      "audio": "audio/gemini/coop/COOP_001/12_user.wav",
+      "round": 3,
+      "audio_src": "human_bcc6b34b.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Perfect. Please let me know if the curtains open automatically at the time you set.",
+      "audio": "audio/gemini/coop/COOP_001/13_model.wav",
+      "round": 3,
+      "audio_src": "gemini_tts_9f5f72b8.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "verify_curtain_movement",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Curtain automatically moved based on schedule.\"\n}",
+      "audio": null,
+      "round": 4,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "It worked! The curtains just opened on their own.",
+      "audio": "audio/gemini/coop/COOP_001/15_user.wav",
+      "round": 4,
+      "audio_src": "human_743699ad.wav"
+    }
+  ]
+}

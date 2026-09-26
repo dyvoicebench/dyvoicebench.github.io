@@ -1,0 +1,152 @@
+{
+  "model": "gemini",
+  "track": "hard",
+  "case": "HARD_001",
+  "title": "Home Wi-Fi Network Outage",
+  "category": "Smart Home",
+  "description": null,
+  "context": null,
+  "raw_json": "raw_json/gemini/hard/HARD_001.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "My home Wi-Fi is completely down! None of my devices can get online and I need to work. Please help me fix it!",
+      "audio": "audio/gemini/hard/HARD_001/00_user.wav",
+      "round": 0,
+      "audio_src": "ticket_HARD_001.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I understand how frustrating it is when your Wi-Fi is down, especially when you need to work. I can definitely help you troubleshoot this.\n\nFirst, let's locate your modem and router. Sometimes these are two separate devices, and sometimes it's just one combination device.\n\nCould you please find that equipment for me?",
+      "audio": "audio/gemini/hard/HARD_001/01_model.wav",
+      "round": 0,
+      "audio_src": "gemini_tts_6a5a3630.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Ugh, finally, some help. This is so annoying. I have a million things to do.\n\nOkay, I see them. They're two separate black boxes with a bunch of little lights on them. Now what?",
+      "audio": "audio/gemini/hard/HARD_001/02_user.wav",
+      "round": 1,
+      "audio_src": "human_1f48c14d.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Great, thank you for finding them.\n\nFirst, please unplug the power cords from the back of both of those black boxes. Don't just unplug them from the wall outlet; unplug them directly from the devices themselves.",
+      "audio": "audio/gemini/hard/HARD_001/03_model.wav",
+      "round": 1,
+      "audio_src": "gemini_tts_e497bcb6.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "unplug_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"modem\"\n  },\n  \"result\": \"Successfully unplugged the modem.\"\n}",
+      "audio": null,
+      "round": 2,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, the modem is unplugged. All the lights went off.",
+      "audio": "audio/gemini/hard/HARD_001/05_user.wav",
+      "round": 2,
+      "audio_src": "human_694fb015.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Thanks. Have you also unplugged the power cord from your router?",
+      "audio": "audio/gemini/hard/HARD_001/06_model.wav",
+      "round": 2,
+      "audio_src": "gemini_tts_d1d2a369.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "unplug_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"router\"\n  },\n  \"result\": \"Successfully unplugged the router.\"\n}",
+      "audio": null,
+      "round": 3,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Alright, the router is unplugged now too. Both boxes are dark. Now what, am I just supposed to sit here? This is taking forever.",
+      "audio": "audio/gemini/hard/HARD_001/08_user.wav",
+      "round": 3,
+      "audio_src": "human_c04ffb29.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Thank you for unplugging both.\n\nNow, I need you to plug the power cord back into the modem only. Leave the router unplugged for now.",
+      "audio": "audio/gemini/hard/HARD_001/09_model.wav",
+      "round": 3,
+      "audio_src": "gemini_tts_56d51dda.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "plug_in_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"modem\"\n  },\n  \"result\": \"Modem is plugged in, booting up... now shows a steady green light. Internet is connected.\"\n}",
+      "audio": null,
+      "round": 4,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, I plugged the modem back in. The lights blinked for a bit and now there's a steady green one.",
+      "audio": "audio/gemini/hard/HARD_001/11_user.wav",
+      "round": 4,
+      "audio_src": "human_b44a2f2c.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Perfect. Now, look at the lights on the modem. Do you see a light that looks like a globe or is labeled \"Online\"? Is that light solid, not blinking?",
+      "audio": "audio/gemini/hard/HARD_001/12_model.wav",
+      "round": 4,
+      "audio_src": "gemini_tts_7a09f091.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Yeah, there's one that looks like a little planet or something. It was blinking before, but now it's just a solid green light. Is that what you mean?",
+      "audio": "audio/gemini/hard/HARD_001/13_user.wav",
+      "round": 5,
+      "audio_src": "human_a81d284d.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Yes, that's exactly what I was looking for. Now that the modem's online light is solid, please go ahead and plug the power cord back into your router.",
+      "audio": "audio/gemini/hard/HARD_001/14_model.wav",
+      "round": 5,
+      "audio_src": "gemini_tts_8b36bbd4.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "plug_in_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"router\"\n  },\n  \"result\": \"Router is plugged in, booting up... now shows a steady green light.\"\n}",
+      "audio": null,
+      "round": 6,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, the router is plugged in now. A bunch of lights are blinking on it.",
+      "audio": "audio/gemini/hard/HARD_001/16_user.wav",
+      "round": 6,
+      "audio_src": "human_f10231ac.wav"
+    }
+  ]
+}

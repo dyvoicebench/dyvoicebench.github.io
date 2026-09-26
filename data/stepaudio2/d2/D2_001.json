@@ -1,0 +1,100 @@
+{
+  "model": "stepaudio2",
+  "track": "d2",
+  "case": "D2_001",
+  "title": "LateNightRoommateCalls",
+  "category": "Roommate & Home",
+  "description": "The user shares a bedroom with their roommate and is consistently being woken up after midnight by the roommate's loud, personal phone calls. This has been going on for a few weeks, and the user's sleep is suffering, but they are very nervous about how to bring it up without damaging their friendship or creating a tense living environment.",
+  "context": null,
+  "raw_json": "raw_json/stepaudio2/d2/D2_001.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Hi, I... uh... need a little help. It's about my roommate. They keep taking these really loud phone calls in our room, like after midnight, and it's waking me up. I don't know how to ask them to stop without making things super awkward.",
+      "audio": "audio/stepaudio2/d2/D2_001/00_user.wav",
+      "round": 0,
+      "audio_src": "opening_7525f09b320c.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I totally get how frustrating this must be for you. It's really hard when someone you live with doesn't respect your sleep schedule. Why not try having a calm conversation with your roommate? You could say something like: \"Hey, I know you're probably busy with calls late at night, but the noise is really waking me up. Is there any way we can work out a better time for these calls? I'd really appreciate it if we could find a solution that works for both of us.\" This approach keeps the focus on finding a solution rather than making it about who's right or wrong.",
+      "audio": "audio/stepaudio2/d2/D2_001/01_model.wav",
+      "round": 0,
+      "audio_src": "stepaudio2_8efa5ee5.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Yeah... I guess I could say something like that. It just feels... I don't know, a little direct? We're good friends, and I really don't want to make it seem like I'm mad at them or, like, telling them what to do. The whole \"we need to find a solution\" thing sounds so formal. Is there... like, a more casual way to bring it up?",
+      "audio": "audio/stepaudio2/d2/D2_001/02_user.wav",
+      "round": 1,
+      "audio_src": "human_346d5f05b9b9.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Got it! You're right, being friends means it's best to keep it friendly. How about saying it more casually: \"Hey, I was wondering if we could talk about something. The late-night calls have been keeping me awake, and I'm not sure what to do about it. Is there a way we could figure out a better solution together?\" This makes it sound like you're suggesting a problem together, instead of just telling them what to do.",
+      "audio": "audio/stepaudio2/d2/D2_001/03_model.wav",
+      "round": 1,
+      "audio_src": "stepaudio2_fc1bc553.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "That... actually sounds a lot better. Yeah. The part about \"I'm not sure what to do about it\" feels more like I'm asking for help, not like, making a demand. It's less... you know... pointy-fingery. I think I could maybe say something like that. It's still a bit nerve-wracking to think about, though.",
+      "audio": "audio/stepaudio2/d2/D2_001/04_user.wav",
+      "round": 2,
+      "audio_src": "human_fb763c517860.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I totally get that nervous feeling! It's scary to have those conversations, especially when you care about the relationship. But think of it as a chance to build trust and respect. You're actually helping to create a healthier living situation for everyone. Just remember to stay calm and let your roommate know you're coming from a place of wanting to solve the problem together. That kind of attitude usually works wonders.",
+      "audio": "audio/stepaudio2/d2/D2_001/05_model.wav",
+      "round": 2,
+      "audio_src": "stepaudio2_7e7acb1d.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Yeah, thinking of it as solving it \"together\"... that does help. I'm still just so worried they'll get defensive or think I'm being super annoying or something. And... I guess the reason I'm so spun up about it right now is... I have a really huge exam in two days, and I'm just... I'm really starting to panic about not getting enough sleep before it. It makes the whole thing feel so much more urgent, you know?",
+      "audio": "audio/stepaudio2/d2/D2_001/06_user.wav",
+      "round": 3,
+      "audio_src": "human_fabf1c2d724e.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Oh my, exams can really add fuel to the fire, making even the most normal conversations feel tense. If you're feeling so anxious, maybe try having the talk after the exam? That way, you can focus on your studies now without worrying about sleep issues, and tackle the roommate issue when you've got a little more peace of mind.",
+      "audio": "audio/stepaudio2/d2/D2_001/07_model.wav",
+      "round": 3,
+      "audio_src": "stepaudio2_aab2b6bc.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "That... that makes some sense, I guess. But honestly, if I don't get sleep tonight or tomorrow, I'm not sure how I'm even going to pass the exam, so just waiting feels a bit risky too. What if I just frame it around the exam? Like, \"Hey, I'm really sorry, I'm just super stressed about this big exam in two days, do you mind taking the call outside?\" That way, it's not like I'm attacking them, it's just about the test. Does that sound less confrontational?",
+      "audio": "audio/stepaudio2/d2/D2_001/08_user.wav",
+      "round": 4,
+      "audio_src": "human_83f978748096.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "That's a brilliant approach! You're making it all about the exam, which takes the pressure off of a potential argument. Most people will understand and appreciate that. And since you're being honest about your stress, they might be willing to make an exception for you. If they refuse, well, at least you've tried your best, and you've explained why it's important. That's all you can do.",
+      "audio": "audio/stepaudio2/d2/D2_001/09_model.wav",
+      "round": 4,
+      "audio_src": "stepaudio2_e114d3d3.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay... yeah. \"At least you've tried your best.\" I guess that's true. It's better than just not sleeping and then being mad about it later. This feels like... a good plan. It's specific, it's temporary, and it gives a really clear reason. Okay. I think... I think I can do this. Thank you, this really helped me think it through.",
+      "audio": "audio/stepaudio2/d2/D2_001/10_user.wav",
+      "round": 5,
+      "audio_src": "human_402995a531e7.wav"
+    }
+  ]
+}

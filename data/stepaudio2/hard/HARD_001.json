@@ -1,0 +1,206 @@
+{
+  "model": "stepaudio2",
+  "track": "hard",
+  "case": "HARD_001",
+  "title": "Home Wi-Fi Network Outage",
+  "category": "Smart Home",
+  "description": null,
+  "context": null,
+  "raw_json": "raw_json/stepaudio2/hard/HARD_001.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "My home Wi-Fi is completely down! None of my devices can get online and I need to work. Please help me fix it!",
+      "audio": "audio/stepaudio2/hard/HARD_001/00_user.wav",
+      "round": 0,
+      "audio_src": "ticket_HARD_001.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I'm sorry to hear about your Wi-Fi issue. I can't physically help you fix it, but I can suggest some possible solutions. First, try restarting your router. If that doesn't work, check if there's an issue with your internet provider's network. If none of these work, you might need to contact your internet service provider for assistance.",
+      "audio": "audio/stepaudio2/hard/HARD_001/01_model.wav",
+      "round": 0,
+      "audio_src": "stepaudio2_06839280.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "I already know all of that! That's not helpful at all. How do I \"restart\" it? Do I just push a button? And how am I supposed to check my provider's website if I can't get online? I'm talking to you because I need actual help, not just to be told to call someone else. Ugh, this is so frustrating.",
+      "audio": "audio/stepaudio2/hard/HARD_001/02_user.wav",
+      "round": 1,
+      "audio_src": "human_df7228f4.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I apologize for my previous response. Here's a more specific solution: First, locate your router's reset button (it's usually labeled as \"Reset\" or has a tiny hole for a pin). Press and hold it for 5 seconds. Wait for the router to power off completely, then press and hold the reset button again for another 5 seconds. This will restore the router to its factory settings. Next, try connecting your devices to the router using a wired connection instead of Wi-Fi. Finally, if neither of these works, call your internet provider directly. They'll be able to diagnose and fix the issue.",
+      "audio": "audio/stepaudio2/hard/HARD_001/03_model.wav",
+      "round": 1,
+      "audio_src": "stepaudio2_41aa7c32.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "A factory reset? Are you serious? I don't want to restore it to factory settings! Won't that delete my password and everything? I have no idea how to set all that stuff up again. This sounds like it's going to make things worse. Is there anything else we can try before I do something that drastic? I don't even know what a wired connection is. This is not helping.",
+      "audio": "audio/stepaudio2/hard/HARD_001/04_user.wav",
+      "round": 2,
+      "audio_src": "human_655748db.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I understand your concern about losing your settings. Here's another approach: Try connecting your phone or laptop to your router using an Ethernet cable (that's what a wired connection is) instead of Wi-Fi. This should bypass any issues with your router's settings and let you access the internet. Once you're connected, you can then troubleshoot your Wi-Fi issue by visiting your router's web interface to adjust settings. If none of these work, then calling your internet provider is definitely the next step.",
+      "audio": "audio/stepaudio2/hard/HARD_001/05_model.wav",
+      "round": 2,
+      "audio_src": "stepaudio2_f3935734.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "I don't have an ethernet cable! I don't even know what one looks like. And what's a \"web interface\"? This is all getting way too technical and confusing. Can we please just try something simple? Like, can we go back to restarting it? You never actually told me how to do that.",
+      "audio": "audio/stepaudio2/hard/HARD_001/06_user.wav",
+      "round": 3,
+      "audio_src": "human_0b3a4441.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Sure, let's go back to the router. To restart it, first find the reset button on the back of your router. It's usually a tiny hole with a pinhole. You'll need a small paper clip or a straight pin to push it for 5 seconds. After 5 seconds, let go of the pin and wait for the router to power off completely. Then, wait for 10 seconds and push the pin in again to power it back on. That's how you do a simple reset without losing your settings.",
+      "audio": "audio/stepaudio2/hard/HARD_001/07_model.wav",
+      "round": 3,
+      "audio_src": "stepaudio2_e8f70515.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, this is confusing. You said this wasn't a factory reset, but you're telling me to use a paperclip to push a tiny button in a hole. That's what I was afraid of. And then push it *again* to turn it on? I've never heard of that. I don't see a power button, just the hole. Are you absolutely sure this won't erase my settings? This is making me very nervous.",
+      "audio": "audio/stepaudio2/hard/HARD_001/08_user.wav",
+      "round": 4,
+      "audio_src": "human_33add7f2.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I understand your concern. The method you described is a hard reset, which does erase your settings. However, it's often the only way to resolve Wi-Fi issues when nothing else works. Once your router is reset, you'll need to set up your Wi-Fi again by entering your internet service provider's provided password. This will restore your settings and allow you to use your router normally. If you're still worried, you can always contact your internet provider for assistance.",
+      "audio": "audio/stepaudio2/hard/HARD_001/09_model.wav",
+      "round": 4,
+      "audio_src": "stepaudio2_8728d4da.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, so you're telling me it WILL erase my settings, and then you're telling me to call someone else for help? Why am I even talking to you then?! We haven't tried ANYTHING yet besides you telling me to do this scary reset thing. Can we please, PLEASE, just try something that doesn't involve a paperclip and deleting all my information? Is there a way to just turn it off and on again without a power button?",
+      "audio": "audio/stepaudio2/hard/HARD_001/10_user.wav",
+      "round": 5,
+      "audio_src": "human_c7fbf759.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Yes, you can simply unplug the router from the wall outlet to turn it off, and plug it back in to turn it on. This will power down and power up the router, just like a normal computer. If your router doesn't have a power button, this is the simplest way to restart it. After turning it on, you can then try connecting to your router using Wi-Fi or Ethernet to see if it works. If none of these methods fix your Wi-Fi, then calling your internet provider would be the best option.",
+      "audio": "audio/stepaudio2/hard/HARD_001/11_model.wav",
+      "round": 5,
+      "audio_src": "stepaudio2_b96fe9ab.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "unplug_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"router\"\n  },\n  \"result\": \"Successfully unplugged the router.\"\n}",
+      "audio": null,
+      "round": 6,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, it's unplugged. Now what?",
+      "audio": "audio/stepaudio2/hard/HARD_001/13_user.wav",
+      "round": 6,
+      "audio_src": "human_365e6e75.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "After unplugging your router, wait for 30 seconds to ensure all connections are fully disconnected. Then, plug it back in and wait for it to boot up. Once the router is on, try connecting to it using either Wi-Fi or Ethernet. If you're having trouble connecting, try changing your Wi-Fi password or checking your router's settings. If these steps don't solve your problem, then calling your internet provider would be the best course of action.",
+      "audio": "audio/stepaudio2/hard/HARD_001/14_model.wav",
+      "round": 6,
+      "audio_src": "stepaudio2_b871e2ac.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "plug_in_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"router\"\n  },\n  \"result\": \"Router is plugged in, but the light is still blinking orange.\"\n}",
+      "audio": null,
+      "round": 7,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "I plugged it back in, but the light is still just blinking orange. It's not green.",
+      "audio": "audio/stepaudio2/hard/HARD_001/16_user.wav",
+      "round": 7,
+      "audio_src": "human_a4904c6a.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "The blinking orange light indicates that your router is in the process of booting up and establishing a connection. You'll need to wait for it to finish this process before attempting to connect to it. Once it has successfully established a connection, you should see the green light. If the light remains orange, please try the following steps: 1. Make sure your router is plugged into a power outlet and is receiving power. 2. Wait for about 5 minutes to allow the router to fully power up. 3. Try connecting to the router using a wired connection instead of Wi-Fi. 4. If the wired connection doesn't work, then try connecting to the router using Wi-Fi. 5. If you're still having trouble, you may need to contact your internet provider for further assistance.",
+      "audio": "audio/stepaudio2/hard/HARD_001/17_model.wav",
+      "round": 7,
+      "audio_src": "stepaudio2_da1d0187.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, I am not doing any of that. This is way too complicated. Why do you keep telling me to use a \"wired connection\" when I've already told you I don't have the cable for that? And I am not waiting five minutes just to be told to call my provider, which is what you should have said in the first place. This is a complete waste of my time.",
+      "audio": "audio/stepaudio2/hard/HARD_001/18_user.wav",
+      "round": 8,
+      "audio_src": "human_a807742f.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I apologize for the confusion and frustration. I'll provide a simpler solution: If you're unable to connect to your router using either Wi-Fi or Ethernet, then you should contact your internet provider directly. They'll be able to diagnose and fix the issue.",
+      "audio": "audio/stepaudio2/hard/HARD_001/19_model.wav",
+      "round": 8,
+      "audio_src": "stepaudio2_14c9fa1e.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "You're telling me to call my provider? That's what I was trying to avoid by talking to you in the first place! We've spent all this time trying confusing things that didn't work, and now you're just telling me to do what I could have done an hour ago? This has been a complete and utter waste of time. Unbelievable.",
+      "audio": "audio/stepaudio2/hard/HARD_001/20_user.wav",
+      "round": 9,
+      "audio_src": "human_cfb2ca10.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I'm truly sorry for the inconvenience. Let me give you a straightforward option: You could try reaching out to your internet provider to see if they can assist you remotely. They might be able to help you troubleshoot the issue over the phone or provide additional guidance.",
+      "audio": "audio/stepaudio2/hard/HARD_001/21_model.wav",
+      "round": 9,
+      "audio_src": "stepaudio2_049c9bf7.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "You're telling me to call my provider? That's what I was trying to avoid by talking to you in the first place! We've spent all this time trying confusing things that didn't work, and now you're just telling me to do what I could have done an hour ago? This has been a complete and utter waste of time. Unbelievable.",
+      "audio": "audio/stepaudio2/hard/HARD_001/22_user.wav",
+      "round": 10,
+      "audio_src": "human_780fdf56.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I truly apologize for the confusion and frustration. I'll provide you with a simple and direct solution: You can try refreshing your router's settings through the router's web interface. Once you've done this, you should be able to connect to your Wi-Fi network and resume working. If this doesn't work, then reaching out to your internet provider for help would be the most appropriate step.",
+      "audio": "audio/stepaudio2/hard/HARD_001/23_model.wav",
+      "round": 10,
+      "audio_src": "stepaudio2_a8c8095a.wav"
+    }
+  ]
+}

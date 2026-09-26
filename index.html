@@ -154,6 +154,7 @@
     .hero-links .btn svg { width: 16px; height: 16px; flex-shrink: 0; }
 
     /* ── Sections ── */
+    section[id] { scroll-margin-top: 100px; }
     .section { padding: 56px 0; }
     .section.compact { padding: 36px 0; }
     .section-title {
@@ -508,6 +509,85 @@
       .model-btn { padding: 8px 14px; font-size: 0.8rem; }
       nav .nav-links { gap: 16px; }
     }
+    [hidden] { display: none !important; }
+    button:focus-visible, a:focus-visible, summary:focus-visible, select:focus-visible { outline: 2px solid var(--accent-glow); outline-offset: 4px; }
+    .run-note { color: var(--text-secondary); text-align: center; font-size: .85rem; margin: 0 auto 16px; }
+    .run-note a, .source-link a { color: var(--accent-glow); }
+    .case-picker { display: flex; justify-content: center; align-items: center; gap: 12px; margin: 24px auto; flex-wrap: wrap; }
+    .case-picker label { color: var(--text-secondary); font-size: .9rem; }
+    .case-picker select { max-width: 100%; padding: 10px 14px; color: var(--text-primary); background: var(--bg-elevated); border: 1px solid var(--border-card); border-radius: var(--radius-md); font: inherit; }
+    .model-info-bar { flex-wrap: wrap; gap: 12px; }
+    .current-case { max-width: 100%; overflow-wrap: anywhere; }
+    .msg-body { min-width: 0; }
+    .bubble { white-space: pre-wrap; overflow-wrap: anywhere; max-width: 100%; }
+    .message { min-width: 0; }
+    .message.tool .bubble { max-height: none; }
+    .message.tool details { max-width: 100%; }
+    .message.tool summary { cursor: pointer; }
+    .message.tool pre { margin-top: 10px; max-height: 280px; overflow-y: auto; }
+    .source-link { margin-top: 24px; font-size: .8rem; }
+    #taskContext { margin-bottom: 24px; color: var(--text-secondary); }
+    #taskContext summary { cursor: pointer; color: var(--accent-glow); }
+    #taskContextText { overflow-wrap: anywhere; max-height: 520px; overflow-y: auto; font: .95rem/1.85 var(--font-body); margin-top: 16px; padding: 0 16px 8px 0; }
+    #taskContextText h3 { color: var(--text-primary); font: 600 1.05rem/1.5 var(--font-display); margin: 24px 0 12px; }
+    #taskContextText h3:first-child { margin-top: 0; }
+    #taskContextText p { margin: 0 0 12px; }
+    #taskContextText ul { padding-left: 24px; margin: 8px 0 16px; }
+    #taskContextText li { margin-bottom: 8px; }
+    #taskContextText strong { color: var(--text-primary); }
+    #taskContextText code { font-family: var(--font-mono); }
+    @media (max-width: 600px) {
+      nav { padding: 0 12px; } nav .nav-inner { height: auto; min-height: 56px; flex-wrap: wrap; gap: 8px; padding: 10px 0; }
+      nav .nav-links { gap: 12px; flex-wrap: wrap; } nav .nav-links a { font-size: .75rem; }
+      .container-wide { padding: 0 12px; } .message { max-width: 100%; gap: 6px; }
+      .message .avatar { width: 26px; height: 26px; } .message.tool { margin-left: 0; }
+      .metrics-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .model-info-bar .badge { margin-left: 0 !important; } .model-info-bar .current-model { display: block; }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; } }
+    .text-button { border: 0; background: none; color: var(--accent-glow); font: inherit; padding: 3px 0; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
+    .rich-text { white-space: normal; overflow-wrap: anywhere; }
+    .rich-text p { margin: 0 0 12px; }
+    .rich-text p:last-child { margin-bottom: 0; }
+    .rich-text h3 { font: 600 1.05rem/1.5 var(--font-display); margin: 22px 0 12px; color: var(--text-primary); }
+    .rich-text h3:first-child { margin-top: 0; }
+    .rich-text ul, .rich-text ol { padding-left: 24px; margin: 12px 0; }
+    .rich-text li { margin: 8px 0; }
+    .rich-text blockquote { border-left: 3px solid var(--accent-glow); padding: 8px 16px; margin: 12px 0; background: rgba(129,140,248,.06); }
+    .rich-text code { font-family: var(--font-mono); font-size: .9em; overflow-wrap: anywhere; }
+    .rich-text hr { border: 0; border-top: 1px solid var(--border-card); margin: 20px 0; }
+    .message.tool .bubble { font-family: var(--font-body); }
+    .tool-content { margin-top: 12px; max-height: 360px; overflow: auto; }
+    .record-fields { margin: 0; }
+    .record-field { padding: 12px 0; border-bottom: 1px solid var(--border-subtle); }
+    .record-field:last-child { border-bottom: 0; }
+    .record-field dt { color: var(--text-secondary); font-size: .8rem; margin-bottom: 5px; }
+    .record-field dd { margin: 0; overflow-wrap: anywhere; }
+    .record-field dd p { margin: 0 0 8px; }
+    .record-group { margin: 8px 0; }
+    .record-group > div, .record-section > div { padding: 12px 0 0 12px; }
+    .record-section { border: 1px solid var(--border-card); border-radius: 12px; margin: 14px 0; padding: 16px 20px; }
+    .record-section summary, .record-group summary { cursor: pointer; color: var(--accent-glow); }
+    .muted { color: var(--text-muted); }
+    body.dialog-open { overflow: hidden; }
+    #detailDialog { width: min(920px, calc(100% - 32px)); max-height: 88vh; margin: auto; padding: 0; background: var(--bg-surface); color: var(--text-primary); border: 1px solid var(--border-card); border-radius: 20px; box-shadow: 0 24px 100px #0008; }
+    #detailDialog::backdrop { background: rgba(3,7,15,.8); backdrop-filter: blur(6px); }
+    .detail-header { position: sticky; top: 0; display: flex; justify-content: space-between; gap: 16px; padding: 24px 28px; border-bottom: 1px solid var(--border-card); background: var(--bg-surface); z-index: 1; }
+    .detail-header h2 { font: 600 1.45rem/1.4 var(--font-display); }
+    .detail-header p { color: var(--text-secondary); font-size: .85rem; margin-top: 6px; }
+    #closeDetails { align-self: flex-start; padding: 8px 14px; border: 1px solid var(--border-card); border-radius: 8px; background: var(--bg-elevated); color: var(--text-primary); font: inherit; cursor: pointer; }
+    #detailBody { padding: 28px; line-height: 1.75; }
+    #detailBody > section { margin-bottom: 28px; }
+    #detailBody > section > .record-fields { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+    #detailBody > section > .record-fields > .record-field { background: var(--bg-card); padding: 16px; border: 1px solid var(--border-card); border-radius: 10px; }
+    .result-metrics { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 12px; }
+    .metric-unit { font-size: .8rem; color: var(--text-secondary); }
+    .table-scroll { width: 100%; overflow-x: auto; border: 1px solid var(--border-card); border-radius: 10px; margin: 20px 0; }
+    .table-scroll table { border-collapse: collapse; width: 100%; font-size: .85rem; }
+    .table-scroll th, .table-scroll td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--border-card); }
+    .table-scroll th { background: var(--bg-elevated); color: var(--text-secondary); font-weight: 600; }
+    .table-scroll tbody tr:nth-child(even) { background: rgba(129,140,248,.025); }
+    @media(max-width:600px) { #detailDialog { width: calc(100% - 16px); max-height: 94vh; } .detail-header { padding: 16px; } #detailBody { padding: 16px; } #detailBody > section > .record-fields { grid-template-columns: 1fr; } .record-section { padding: 12px; } }
   </style>
 </head>
 <body>
@@ -532,30 +612,10 @@
   <section class="hero">
     <div class="container">
       <h1>SpeechLLM-Bench: A Dynamic Benchmark for Evaluating Speech-Interactive Large Language Models</h1>
-      <div class="authors">
-        Anonymous Author<sup>1,*</sup>, Anonymous Author<sup>2</sup>, Anonymous Author<sup>1,&dagger;</sup>
-      </div>
-      <div class="affiliations">
-        <sup>1</sup>Speech Research Lab, Example University &nbsp;
-        <sup>2</sup>Audio Intelligence Institute
-      </div>
       <div class="hero-links">
-        <a href="https://www.deepseek.com/" class="btn" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h8l5 5v15H6V2zm7 1.8V8h4.2L13 3.8zM8 11h8v1.6H8V11zm0 3.4h8V16H8v-1.6zm0 3.4h5v1.6H8v-1.6z"/></svg>
-          Paper
-        </a>
-        <a href="https://www.deepseek.com/" class="btn" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.52 2.87 8.35 6.84 9.71.5.09.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.56 2.35 1.11 2.92.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 5.95c.85 0 1.7.12 2.5.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.49A10.17 10.17 0 0 0 22 12.22C22 6.58 17.52 2 12 2z"/></svg>
-          Code
-        </a>
-        <a href="https://www.deepseek.com/" class="btn" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 19V5H3v14h18zm-2-2H5V7h14v10z"/></svg>
-          Dataset
-        </a>
-        <a href="#benchmark" class="btn">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 19h14v2H5v-2zm1-8h3v6H6v-6zm5-5h3v11h-3V6zm5 8h3v3h-3v-3z"/></svg>
-          Live Demo
-        </a>
+        <a href="https://github.com/dyvoicebench/dyvoicebench.github.io" class="btn" target="_blank" rel="noopener">Code</a>
+        <a href="https://www.modelscope.cn/BEISHUI/dy-voicebench" class="btn" target="_blank" rel="noopener">Dataset</a>
+        <a href="#benchmark" class="btn">Live Demo</a>
       </div>
       <div class="wave-decoration">
         <div class="wave-bar" style="animation-delay:0s;animation-duration:0.9s"></div>
@@ -646,11 +706,14 @@
       <div class="model-selector" id="modelSelector"></div>
 
       <!-- Case Tabs -->
-      <div class="case-tabs" id="caseTabs"></div>
+      <div class="case-tabs" id="caseTabs" aria-label="Benchmark track"></div>
+      <p class="run-note" id="metricsNote" hidden></p>
 
       <!-- Metrics Row -->
       <div class="metrics-row" id="metricsRow"></div>
 
+      <div class="case-picker" id="casePicker"></div>
+      <p id="loadStatus" class="run-note" role="status">Loading recorded examples…</p>
       <!-- Chat Panel -->
       <div class="chat-panel">
         <div class="model-info-bar">
@@ -660,14 +723,15 @@
           </div>
           <div class="current-case" id="currentCaseDesc"></div>
         </div>
-        <div class="chat-messages" id="chatMessages"></div>
+        <details id="taskContext" hidden><summary>Task context</summary><div id="taskContextText"></div></details>
+        <div class="chat-messages" id="chatMessages" aria-live="polite"></div>
+        <p class="source-link"><button type="button" class="text-button" id="rawSource" hidden>Conversation details</button></p>
       </div>
     </div>
   </section>
 
   <div class="divider"></div>
 
-  <!-- ── Conclusion ── -->
   <section class="section compact" id="conclusion">
     <div class="container">
       <h2 class="section-title">3. Conclusion</h2>
@@ -684,7 +748,6 @@
 
   <div class="divider"></div>
 
-  <!-- ── References ── -->
   <section class="section compact" id="references">
     <div class="container">
       <h2 class="section-title">References</h2>
@@ -703,7 +766,8 @@
     </div>
   </section>
 
-  <!-- ── BibTeX ── -->
+  <div class="divider"></div>
+
   <section class="section compact" id="bibtex">
     <div class="container">
       <h2 class="section-title">BibTeX</h2>
@@ -716,369 +780,14 @@
     </div>
   </section>
 
-  <!-- ── Footer ── -->
-  <footer>
-    <div class="container">
-      <p>This website is licensed under a <a href="https://www.deepseek.com/" target="_blank" rel="noopener">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
-      <p style="margin-top:8px">SpeechLLM-Bench &copy; 2025 &mdash; All external links point to <a href="https://www.deepseek.com/" target="_blank" rel="noopener">DeepSeek</a> as placeholder.</p>
-    </div>
-  </footer>
+  <footer><div class="container"><p>SpeechLLM-Bench · Recorded conversations &amp; evaluation results</p></div></footer>
 
+  <dialog id="detailDialog" aria-labelledby="detailTitle" aria-describedby="detailSubtitle">
+    <div class="detail-header"><div><h2 id="detailTitle"></h2><p id="detailSubtitle"></p></div><button type="button" id="closeDetails" aria-label="Close details">Close</button></div>
+    <div id="detailBody" class="rich-text"></div>
+  </dialog>
   <!-- ═══════ DATA & APPLICATION LOGIC ═══════ -->
-  <audio id="audioPlayer" style="display:none" preload="auto"></audio>
-  <script>
-  /**
-   * ============================================================
-   * DATA LAYER — All benchmark data in one place.
-   * To replace with real content, simply update the objects below.
-   * ============================================================
-   */
-
-  // ── Model Registry ──
-  const models = [
-    { id: 'gpt4o',     name: 'GPT-4o',         org: 'OpenAI',          color: '#10b981' },
-    { id: 'gemini',    name: 'Gemini 2.0',      org: 'Google DeepMind', color: '#4285f4' },
-    { id: 'deepseek',  name: 'DeepSeek-V3',     org: 'DeepSeek-AI',    color: '#6366f1' },
-    { id: 'qwen',      name: 'Qwen2-Audio',     org: 'Alibaba Cloud',  color: '#f59e0b' },
-    { id: 'moshi',     name: 'Moshi',           org: 'Kyutai',         color: '#ec4899' },
-    { id: 'speechgpt', name: 'SpeechGPT',       org: 'Fudan University', color: '#14b8a6' },
-    { id: 'whisper',   name: 'Whisper+LlaMA',   org: 'OpenAI / Meta',  color: '#8b5cf6' }
-  ];
-
-  // ── Case Categories ──
-  const caseCategories = [
-    { id: 'dw1',  label: 'Dynamic World I',         icon: '🌍', desc: 'Environmental audio reasoning' },
-    { id: 'dw2',  label: 'Dynamic World II',        icon: '🎧', desc: 'Audio scene segmentation & event detection' },
-    { id: 'dus',  label: 'Dynamic User State',      icon: '😊', desc: 'Emotion & contextual state tracking' },
-    { id: 'dka',  label: 'Dynamic Knowledge Acq.',  icon: '🧠', desc: 'Real-time retrieval-augmented spoken dialogue' }
-  ];
-
-  /**
-   * Conversation Data — organized as:
-   *   conversations[modelId][caseId] = [ { role, label, content }, ... ]
-   *   role: 'user' | 'model' | 'tool'
-   *   To populate real data, replace content strings.
-   */
-  const conversations = {};
-
-  function placeholderConversation(modelIdx, caseIdx) {
-    const model = models[modelIdx];
-    const caseCat = caseCategories[caseIdx];
-    const rounds = 3 + Math.floor((modelIdx + caseIdx) % 3); // 3~5 rounds
-
-    // Pre-built placeholder dialog templates per case type
-    const templates = {
-      dw1: {
-        scenario: 'A user in a busy café asks the model to identify and reason about overlapping sounds.',
-        user: [
-          "What sounds do you hear in the background right now?",
-          "Can you separate the coffee machine noise from the conversation happening next to me?",
-          "Based on the audio scene, where do you think I am and what time of day is it?",
-          "Are there any safety concerns you can detect from the ambient sounds?"
-        ],
-        model: [
-          "I can hear multiple layered sounds: an espresso machine steaming at approximately 2.3 kHz with intermittent grinding bursts, overlapping with at least two distinct human conversations — one female voice discussing a project deadline, and one male voice ordering a latte. There's also a constant low-frequency hum around 60 Hz, likely from a refrigeration unit.",
-          "Separating the sources: the coffee machine produces sharp impulsive sounds at 0.8—1.2 second intervals with a characteristic steam hiss at 8—12 kHz. The conversation nearest to you features a female speaker at roughly 1.5 meters distance with a fundamental frequency around 220 Hz, while the barista's voice is more distant at approximately 3—4 meters.",
-          "Based on the audio scene analysis, you appear to be in a specialty coffee shop — likely mid-morning to early afternoon given the density of espresso orders (latte orders peak between 9—11 AM). The reverberation pattern suggests a medium-sized room with hard surfaces (tile floor, exposed brick walls). There's no outdoor traffic noise, suggesting you're seated away from the entrance.",
-          "From the ambient audio, I detect no immediate safety concerns. No fire alarms, breaking glass, aggressive vocal tones, or vehicle collision sounds. The environment appears to be a normally functioning commercial space. However, I notice the espresso machine's pressure gauge may need maintenance — there's a slight irregularity in the pump cycle that could indicate scale buildup."
-        ],
-        tool: [
-          { label: 'audio_scene_analysis', content: '{\n  "detected_sources": 5,\n  "primary": "espresso_machine",\n  "secondary": ["female_voice", "male_voice", "refrigeration_hum", "cup_clinking"],\n  "snr_estimate_db": 8.4,\n  "reverberation_rt60_ms": 340\n}' },
-          null,
-          { label: 'acoustic_scene_classifier', content: '{\n  "scene_label": "coffee_shop",\n  "confidence": 0.94,\n  "indoor": true,\n  "estimated_capacity": "15—30 persons",\n  "time_of_day_likelihood": "morning_0.62"\n}' },
-          null
-        ]
-      },
-      dw2: {
-        scenario: 'Sequential audio scene analysis — the user moves through different environments.',
-        user: [
-          "I'm recording an audio diary as I walk. Describe what you hear transitioning from outdoor to indoor.",
-          "Now I've entered a subway station. What are the dominant acoustic features?",
-          "I'm getting on the train. Track how the acoustic profile changes.",
-          "After exiting the station, I'm in a quiet park. Compare the acoustic profiles across all four locations."
-        ],
-        model: [
-          "The transition is clear: starting with outdoor city ambience — traffic at 15—20 meters, wind rustling through trees at 400—800 Hz, and distant construction at roughly 200 meters. As you move indoors, the high-frequency content drops sharply (—12 dB above 4 kHz), reverberation time increases from ~180 ms to ~420 ms, and low-frequency HVAC rumble becomes the dominant background at ~125 Hz.",
-          "The subway station presents a distinct acoustic signature: dominant low-frequency rumble at 63—125 Hz from passing trains, sharp high-frequency squeal at 4—8 kHz from rail friction, PA announcements with strong 1—4 kHz presence, and rapid footstep transients from commuters. Estimated crowd density: medium-high based on the diffuse field characteristics.",
-          "Inside the train car: the acoustic profile shifts dramatically. Low-frequency structure-borne noise dominates at 40—200 Hz with a characteristic 1/f spectral slope. The enclosed space creates a standing wave pattern at ~85 Hz (wavelength matches car width). Voice babble from passengers creates a diffuse field at 500—2000 Hz. Acceleration and deceleration produce distinctive Doppler-shifted tonal components.",
-          "Cross-environment comparison — Outdoor City: broadband noise, SNR ~12 dB, RT60 ~180 ms. Subway Station: 63—125 Hz dominant, high reverberation, SNR ~5 dB, RT60 ~800 ms. Train Car: 40—200 Hz structure-borne, standing wave at 85 Hz, SNR ~8 dB, RT60 ~300 ms. Park: minimal anthropogenic noise, biophonic sounds (birds at 2—8 kHz, insects at 8—15 kHz), SNR ~22 dB, RT60 effectively infinite (outdoor). The most dramatic shifts occur in low-frequency energy (—18 dB from station to park) and high-frequency complexity (+15 dB in park from biophony)."
-        ],
-        tool: [
-          null,
-          null,
-          { label: 'acoustic_env_classifier', content: '{\n  "current_scene": "subway_train_car",\n  "confidence": 0.91,\n  "transition_detected": true,\n  "previous_scene": "subway_platform",\n  "delta_rt60_ms": -500\n}' },
-          { label: 'cross_env_comparison', content: '{\n  "environments": ["city_street", "subway_station", "train_car", "park"],\n  "dominant_bands": {\n    "city": "broadband",\n    "station": "63-125Hz",\n    "train": "40-200Hz",\n    "park": "2-15kHz"\n  },\n  "highest_snr": "park_22dB",\n  "lowest_snr": "station_5dB"\n}' }
-        ]
-      },
-      dus: {
-        scenario: 'Multi-turn conversation with evolving user emotional state — from calm to frustrated.',
-        user: [
-          "Hi, I'm feeling pretty good today. Can you help me plan a weekend trip?",
-          "Actually, I just remembered I forgot to submit an important report at work. I'm starting to feel anxious about it.",
-          "This is so frustrating! I've been trying to find my booking confirmation for 20 minutes and it's nowhere. Can you help me locate it?",
-          "Okay, I've calmed down now. Thank you for your patience. Let's go back to planning that trip — I think I need it more than ever."
-        ],
-        model: [
-          "That's wonderful to hear! I'd be happy to help you plan a weekend getaway. To give you the best recommendations, could you tell me a bit about your preferences — are you thinking beach relaxation, mountain hiking, city exploration, or something else? Also, what's your approximate budget range?",
-          "I hear the shift in your tone — your speech rate has increased and your pitch has risen slightly, which often indicates rising anxiety. Let's address this together. First, take a slow breath. Now, can you tell me what kind of report it was and when it was due? We can figure out the next steps — whether it's sending a quick apology email, submitting it late, or finding an alternative solution.",
-          "I can hear the frustration in your voice clearly — your volume is elevated and your speech patterns have become more clipped. Let's solve this methodically. Can you tell me which platform or service you used for the booking? Email provider? Booking website? I can walk you through the exact steps to search your inbox or account history. We'll find it together.",
-          "I'm glad you're feeling better. The shift in your voice — slower pace, lower pitch, more relaxed prosody — confirms you've moved past the stress spike. And yes, I think a weekend trip is exactly what you need after that ordeal! Let's pick up where we left off. Earlier you mentioned beaches and hiking — how about a coastal trail destination where you can do both?"
-        ],
-        tool: [
-          { label: 'emotion_detect', content: '{\n  "emotion": "positive",\n  "valence": 0.78,\n  "arousal": 0.55,\n  "confidence": 0.87\n}' },
-          { label: 'emotion_detect', content: '{\n  "emotion": "anxious",\n  "valence": 0.31,\n  "arousal": 0.72,\n  "speech_rate_change": "+18%",\n  "pitch_shift_semitones": "+2.1"\n}' },
-          { label: 'emotion_detect', content: '{\n  "emotion": "frustrated",\n  "valence": 0.15,\n  "arousal": 0.85,\n  "volume_increase_db": "+6.3",\n  "speech_rate_change": "+24%"\n}' },
-          { label: 'emotion_detect', content: '{\n  "emotion": "relieved",\n  "valence": 0.68,\n  "arousal": 0.42,\n  "emotion_transition": "frustrated→relieved",\n  "recovery_time_seconds": 180\n}' }
-        ]
-      },
-      dka: {
-        scenario: 'User asks factual questions requiring real-time web search during spoken conversation.',
-        user: [
-          "What were the major AI research breakthroughs announced in the last month?",
-          "Can you look up the current top-5 on the Billboard Hot 100 and tell me who produced each track?",
-          "What's the exchange rate from USD to JPY right now, and if I exchange $2,500, how many yen would I get?",
-          "I heard there was a significant earthquake somewhere in the Pacific recently. Can you get the details — magnitude, location, tsunami risk?"
-        ],
-        model: [
-          "Let me search for the latest AI research developments... Based on the search results, this past month saw several notable breakthroughs: (1) a new multimodal architecture achieving state-of-the-art on 23 benchmarks simultaneously, (2) significant advances in robotic manipulation via vision-language-action models, (3) a breakthrough in protein folding prediction that extends to previously unsolvable structures, and (4) the release of several highly capable open-weight models rivaling proprietary systems.",
-          "Let me retrieve the current Billboard Hot 100 for you. As of this week: #1 is 'Flowers' — produced by Kid Harpoon and Tyler Johnson; #2 is 'Kill Bill' — produced by Sounwave, DJ Dahi, and Carter Lang; #3 is 'Creepin\'' — produced by Metro Boomin; #4 is 'Anti-Hero' — produced by Jack Antonoff and Taylor Swift; #5 is 'Unholy' — produced by Cirkut, Omer Fedi, and ILYA. That's quite a mix of pop, R&B, and alternative production styles!",
-          "Let me calculate that for you. Current USD/JPY exchange rate is approximately 148.35 JPY per 1 USD. For $2,500, the conversion would be: $2,500 × 148.35 = 370,875 Japanese yen. Keep in mind that actual exchange rates at banks or currency exchanges may differ slightly due to fees and bid-ask spreads — typically you'd receive about 2—3% less.",
-          "Let me pull up the latest seismic data... According to the USGS, a magnitude 7.1 earthquake struck off the coast of the Vanuatu islands in the South Pacific approximately 18 hours ago. The epicenter was located at 18.2°S, 168.4°E at a depth of 29 km. A tsunami warning was initially issued for Vanuatu, New Caledonia, and Fiji but was lifted after 3 hours. Minor sea level fluctuations were reported but no destructive tsunami occurred. There have been 14 reported aftershocks ranging from magnitude 4.2 to 5.8."
-        ],
-        tool: [
-          { label: 'web_search', content: '{\n  "query": "AI research breakthroughs last month 2025",\n  "results_count": 42,\n  "top_source": "techcrunch.com",\n  "recency_filter": "past_30_days",\n  "confidence_weighted": 0.89\n}' },
-          { label: 'web_search', content: '{\n  "query": "Billboard Hot 100 this week top 5",\n  "results_count": 8,\n  "source": "billboard.com",\n  "cache_hit": false\n}' },
-          { label: 'currency_converter', content: '{\n  "from": "USD",\n  "to": "JPY",\n  "rate": 148.35,\n  "amount": 2500,\n  "result": 370875,\n  "timestamp": "2025-01-15T10:23:45Z"\n}' },
-          { label: 'web_search', content: '{\n  "query": "Pacific earthquake today magnitude tsunami",\n  "results_count": 156,\n  "top_source": "usgs.gov",\n  "event_id": "us6000abc123",\n  "magnitude": 7.1\n}' }
-        ]
-      }
-    };
-
-    const t = templates[caseCategories[caseIdx].id];
-    const messages = [];
-
-    for (let r = 0; r < rounds; r++) {
-      const roundLabel = `Round ${r + 1}`;
-      const uIdx = r % t.user.length;
-      const mIdx = r % t.model.length;
-
-      // Round divider
-      if (r > 0) {
-        messages.push({ type: 'divider', label: roundLabel });
-      } else {
-        messages.push({ type: 'divider', label: roundLabel });
-      }
-
-      // User message
-      messages.push({ role: 'user', label: 'User', content: t.user[uIdx] });
-
-      // Tool message (if exists for this round)
-      const toolEntry = t.tool[r % t.tool.length];
-      if (toolEntry) {
-        messages.push({ role: 'tool', label: toolEntry.label, content: toolEntry.content });
-      }
-
-      // Model response
-      messages.push({ role: 'model', label: model.name, content: t.model[mIdx] });
-    }
-
-    return messages;
-  }
-
-  // ── Metric computation (placeholder) ──
-  function computeMetrics(modelIdx, caseIdx) {
-    const model = models[modelIdx];
-    const base = 0.65 + (modelIdx * 0.04) % 0.28;
-    const caseMod = [0.06, 0.02, -0.05, -0.03][caseIdx];
-    const rr = Math.min(0.98, Math.max(0.45, base + caseMod + (Math.random() - 0.5) * 0.06));
-    const cc = Math.min(0.97, Math.max(0.40, base + caseMod * 0.7 + (Math.random() - 0.5) * 0.08));
-    const vn = Math.min(0.99, Math.max(0.50, 0.78 - modelIdx * 0.03 + (Math.random() - 0.5) * 0.05));
-    const arl = Math.max(0.3, 0.5 + modelIdx * 0.15 + caseIdx * 0.1 + (Math.random() - 0.5) * 0.2);
-    const tuf1 = Math.min(0.96, Math.max(0.35, base - 0.05 + caseIdx * 0.04 + (Math.random() - 0.5) * 0.1));
-    return { rr, cc, vn, arl, tuf1 };
-  }
-
-  function compositeScore(metrics) {
-    const h = (a, b) => 2 * a * b / (a + b + 0.001);
-    const comb = h(h(metrics.rr, metrics.cc), h(metrics.vn, metrics.tuf1));
-    return (comb * 100).toFixed(1);
-  }
-
-  // ═══════════ RENDER FUNCTIONS ═══════════
-
-  let activeModel = 0;
-  let activeCase = 0;
-
-  const $ = (sel) => document.querySelector(sel);
-  const $$ = (sel) => document.querySelectorAll(sel);
-
-  function renderModelSelector() {
-    const container = $('#modelSelector');
-    container.innerHTML = models.map((m, i) =>
-      `<button class="model-btn${i === activeModel ? ' active' : ''}" data-model="${i}">${m.name}</button>`
-    ).join('');
-
-    container.querySelectorAll('.model-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        activeModel = parseInt(btn.dataset.model);
-        renderAll();
-      });
-    });
-  }
-
-  function renderCaseTabs() {
-    const container = $('#caseTabs');
-    container.innerHTML = caseCategories.map((c, i) =>
-      `<button class="case-tab${i === activeCase ? ' active' : ''}" data-case="${i}">${c.icon} ${c.label}</button>`
-    ).join('');
-
-    container.querySelectorAll('.case-tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        activeCase = parseInt(tab.dataset.case);
-        renderAll();
-      });
-    });
-  }
-
-  function renderMetrics() {
-    const container = $('#metricsRow');
-    const m = computeMetrics(activeModel, activeCase);
-    const comp = compositeScore(m);
-    const metricsDef = [
-      { label: 'Composite Score', value: comp, unit: '/100' },
-      { label: 'Response Relevance', value: (m.rr * 100).toFixed(1), unit: '%' },
-      { label: 'Conversation Coherence', value: (m.cc * 100).toFixed(1), unit: '%' },
-      { label: 'Voice Naturalness', value: (m.vn * 100).toFixed(1), unit: '%' },
-      { label: 'Avg. Response Latency', value: m.arl.toFixed(2), unit: 's' },
-      { label: 'Tool-Use F1', value: (m.tuf1 * 100).toFixed(1), unit: '%' }
-    ];
-    container.innerHTML = metricsDef.map(d =>
-      `<div class="metric-card">
-        <div class="metric-value">${d.value}<span style="font-size:0.7rem;font-weight:500;color:var(--text-muted)">${d.unit}</span></div>
-        <div class="metric-label">${d.label}</div>
-      </div>`
-    ).join('');
-  }
-
-  function renderChat() {
-    const model = models[activeModel];
-    const caseCat = caseCategories[activeCase];
-    const msgs = placeholderConversation(activeModel, activeCase);
-
-    $('#currentModelName').textContent = model.name;
-    $('#currentCaseBadge').textContent = caseCat.label;
-    $('#currentCaseDesc').textContent = caseCat.desc;
-
-    const container = $('#chatMessages');
-    let html = '';
-
-    // 收集非divider消息的索引，用于音频路径
-    let nonDividerIndex = 0;
-
-    msgs.forEach((msg, idx) => {
-      if (msg.type === 'divider') {
-        html += `<div class="round-divider"><span class="line"></span><span class="label">${msg.label}</span><span class="line"></span></div>`;
-        return;
-      }
-
-      const isUser = msg.role === 'user';
-      const avatarLetter = isUser ? 'U' : (msg.role === 'tool' ? 'T' : 'M');
-      const audioPath = `audio/${model.id}_${caseCat.id}_${nonDividerIndex}_${msg.role}.wav`;
-      nonDividerIndex++;
-
-      const bubbleContent = msg.role === 'tool'
-        ? `<pre>${msg.content}</pre>`
-        : msg.content;
-
-      html += `
-        <div class="message ${msg.role}" style="animation-delay:${idx * 0.05}s">
-          <div class="avatar">${avatarLetter}</div>
-          <div class="msg-body">
-            <span class="msg-label ${msg.role}">${msg.label}</span>
-            <div class="bubble">${bubbleContent}</div>
-          </div>
-          <button class="voice-btn" title="Play audio" data-audio="${audioPath}">
-            <span class="speaker-icon">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>
-            </span>
-            <span class="bars">
-              <span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span>
-            </span>
-          </button>
-        </div>`;
-    });
-
-    container.innerHTML = html;
-
-    // Attach audio click handlers
-    container.querySelectorAll('.voice-btn').forEach(btn => {
-      btn.addEventListener('click', () => handleAudioClick(btn));
-    });
-  }
-
-  // ── Audio Player ──
-  const audioPlayer = $('#audioPlayer');
-  let currentBtn = null;
-
-  function handleAudioClick(btn) {
-    const audioPath = btn.dataset.audio;
-
-    if (currentBtn === btn) {
-      if (!audioPlayer.paused) {
-        audioPlayer.pause();
-        btn.classList.remove('playing');
-      } else {
-        audioPlayer.play();
-        btn.classList.add('playing');
-      }
-      return;
-    }
-
-    if (currentBtn) {
-      audioPlayer.pause();
-      currentBtn.classList.remove('playing');
-    }
-
-    currentBtn = btn;
-    btn.classList.add('playing');
-    audioPlayer.src = audioPath;
-
-    audioPlayer.onpause = () => {
-      if (currentBtn === btn) {
-        btn.classList.remove('playing');
-      }
-    };
-
-    audioPlayer.onended = () => {
-      btn.classList.remove('playing');
-      if (currentBtn === btn) {
-        currentBtn = null;
-      }
-    };
-
-    audioPlayer.onerror = () => {
-      btn.classList.remove('playing');
-      if (currentBtn === btn) {
-        currentBtn = null;
-      }
-      console.warn('Audio file not found:', audioPath);
-    };
-
-    audioPlayer.play().catch(() => {
-      btn.classList.remove('playing');
-      currentBtn = null;
-    });
-  }
-
-  function renderAll() {
-    renderModelSelector();
-    renderCaseTabs();
-    renderMetrics();
-    renderChat();
-  }
-
-  // ── Initialize ──
-  renderAll();
-  </script>
+  <audio id="audioPlayer" style="display:none" preload="none"></audio>
+  <script src="app.js" defer></script>
 </body>
 </html>

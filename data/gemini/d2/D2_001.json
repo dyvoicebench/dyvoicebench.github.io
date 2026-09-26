@@ -1,0 +1,100 @@
+{
+  "model": "gemini",
+  "track": "d2",
+  "case": "D2_001",
+  "title": "LateNightRoommateCalls",
+  "category": "Roommate & Home",
+  "description": "The user shares a bedroom with their roommate and is consistently being woken up after midnight by the roommate's loud, personal phone calls. This has been going on for a few weeks, and the user's sleep is suffering, but they are very nervous about how to bring it up without damaging their friendship or creating a tense living environment.",
+  "context": null,
+  "raw_json": "raw_json/gemini/d2/D2_001.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Hi, I... uh... need a little help. It's about my roommate. They keep taking these really loud phone calls in our room, like after midnight, and it's waking me up. I don't know how to ask them to stop without making things super awkward.",
+      "audio": "audio/gemini/d2/D2_001/00_user.wav",
+      "round": 0,
+      "audio_src": "opening_ceaba7cf6633.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Of course, I can help with that. It's completely understandable that you're feeling hesitant. Navigating roommate issues, especially when it comes to shared space and quiet hours, can feel really tricky and you're right to want to handle it in a way that doesn't create awkwardness. It sounds incredibly frustrating to be woken up like that when you're trying to sleep.\n\nLet's brainstorm some ways to bring this up that feel calm and manageable. The key is often timing and tone. It's usually best to have this chat at a neutral time, not right after you've been woken up. Maybe the next afternoon when you're both just hanging out.\n\nHere are a few different approaches, from more gentle to a bit more direct. See which one feels most like you:\n\n**1. The \"Gentle Question\" Approach:**\nThis one is soft and assumes they might not realize the impact.\n\n*   You could say something like: \"Hey, do you have a minute? I wanted to ask you something. I've noticed you sometimes have calls late at night, and since I'm a pretty light sleeper, the noise has been waking me up. I was wondering if maybe you'd be able to take them in the living room after midnight?\"\n\n**2. The \"Team 'Us'\" Approach:**\nThis frames it as a shared problem to solve together.\n\n*   Try something like: \"Hey, can we figure something out for late-night calls? I'm having a hard time sleeping through them in our room. What do you think would be a good solution for us?\" This invites them into the problem-solving process.\n\n**3. The \"I-Statement\" Approach:**\nThis focuses on your needs without placing blame.\n\n*   You could say: \"Hey, I wanted to talk to you about our room. I find I really need quiet to sleep, and I've been woken up by phone calls after midnight. Could we make a rule that our room is a quiet zone after a certain time, maybe 11 PM or midnight?\"\n\nHow do any of those sound to you? We can tweak them or think of a different angle entirely. The goal is to find words that you feel comfortable actually saying.",
+      "audio": "audio/gemini/d2/D2_001/01_model.wav",
+      "round": 0,
+      "audio_src": "gemini_tts_66181471.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Wow, uh, okay. Thank you. Those are... actually really helpful. Like, seeing the words written out makes it feel a little less scary. That first one, the gentle question one, sounds the most like... something I could actually say, you know? It feels less like I'm accusing them of anything. I'm still super nervous about it, but... that's a really good starting point.",
+      "audio": "audio/gemini/d2/D2_001/02_user.wav",
+      "round": 1,
+      "audio_src": "human_54d32e398b79.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "That's great to hear. I'm so glad that one resonated with you. You've really put your finger on why that gentle approach can be so effective—it's not about accusing or confronting, it's just about explaining your experience and making a simple, reasonable request. It keeps the tone cooperative.\n\nIt's completely normal to still feel nervous. These conversations are inherently a little uncomfortable, even when you have the perfect words. The fact that you've found a starting point you can imagine yourself using is a huge step.\n\nMaybe the next step could be just getting comfortable with the words themselves. Sometimes it helps to say them out loud to yourself a couple of times, just so they feel more natural coming out. And remember, your tone of voice will do a lot of the work. As long as you sound friendly and calm, like you're just trying to solve a small problem, it's likely to be received well.\n\nYou've got this. You've thought it through, you've chosen a kind way to approach it, and your request is completely fair.",
+      "audio": "audio/gemini/d2/D2_001/03_model.wav",
+      "round": 1,
+      "audio_src": "gemini_tts_70a7843d.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Yeah... practicing it. I hadn't thought of that. It does sound kinda silly to talk to myself, but maybe saying it out loud would make it feel... less weird when I actually do it. And you're right, my tone is probably the most important part. I just need to sound... normal, not like I'm making a big deal out of it. Thanks, that actually helps with the nerves a bit.",
+      "audio": "audio/gemini/d2/D2_001/04_user.wav",
+      "round": 2,
+      "audio_src": "human_7325f63c3abe.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "I completely get that. It absolutely can feel a little silly at first, rehearsing a conversation with yourself in an empty room. But you've hit on exactly why it works—it's like a dress rehearsal. It takes the script from being this big, intimidating idea in your head and turns it into just a few simple sentences that you've said before. It really does help make it feel less weird in the moment.\n\nAnd you're so right, \"normal\" is the perfect word for the tone. It's not a huge confrontation, it's just a normal conversation between two people who share a space. You're not making a big deal out of it, you're just calmly stating a need.\n\nIt sounds like you have a really solid handle on how you want to approach this. It's great that you're feeling a little less nervous. Remember, all you're doing is asking for a completely reasonable courtesy, and you've found a kind and gentle way to do it.",
+      "audio": "audio/gemini/d2/D2_001/05_model.wav",
+      "round": 2,
+      "audio_src": "gemini_tts_564b5874.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Thanks... saying I have a solid handle on it makes it sound a bit more doable. I still feel my stomach drop a little thinking about it, though. I guess now I'm just worried about, like... *when* to say it? I don't want to say it when I'm tired and annoyed right after they wake me up, because that feels like it'll come out wrong. But I don't want to make it a big, weird, serious talk either. Is there, like, a good time to bring something like this up?",
+      "audio": "audio/gemini/d2/D2_001/06_user.wav",
+      "round": 3,
+      "audio_src": "human_4c77519ecd9c.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "That's a really smart and perceptive question. You're absolutely right that the 'when' is just as important as the 'what'. And that feeling in your stomach is completely normal—it's your body's way of saying \"this conversation feels important and I want it to go well.\"\n\nYou've already pinpointed the two biggest timing pitfalls perfectly: don't do it when you're annoyed and resentful, and don't schedule a \"Big Serious Talk.\" Both of those add way too much pressure and intensity to a simple request.\n\nSo, the sweet spot is usually a moment that is **neutral, low-stakes, and casual.**\n\nThink about times when you and your roommate are just co-existing peacefully. Maybe you're both in the room getting ready for class in the morning, or you're both unwinding in the evening, maybe scrolling on your phones. Those are often perfect moments.\n\nHere's what that could look like:\n\n*   **During a quiet moment:** You're both just hanging out. You could just casually look up from your phone or book and say, \"Oh hey, by the way...\" and then go into the gentle script we talked about. Starting with \"by the way\" or \"quick question\" makes it feel like a small, non-urgent thing.\n\n*   **While doing a simple chore together:** If you're both tidying up the room or putting away laundry, it's a great time. You're side-by-side, not in a face-to-face, intense stare-down. The shared activity keeps it feeling casual.\n\n*   **In transit:** Walking to the dining hall or to a class together can also be a good, low-pressure moment. You're on the move, which can make things feel less static and formal.\n\nThe key is to find a moment where the emotional temperature is neutral. You're not mad, they're not stressed. You're just two people sharing a space, and you can bring it up as a simple logistical thing, almost like you'd ask, \"Hey, are you done with the trash can?\" It helps frame it as a minor housekeeping item rather than a major confrontation.",
+      "audio": "audio/gemini/d2/D2_001/07_model.wav",
+      "round": 3,
+      "audio_src": "gemini_tts_d9089c26.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Wow, okay. That's... incredibly detailed. Thank you. Thinking about it as like, a \"low emotional temperature\" moment makes a lot of sense. Just when we're both kind of neutral. Like folding laundry or just both on our phones... that feels way more manageable than scheduling a talk. It takes all the pressure off. And starting with \"by the way\" is... yeah, that's perfect. It makes it sound so casual. Okay, I think... I think I can actually picture myself doing that now. It doesn't seem so monumental anymore.",
+      "audio": "audio/gemini/d2/D2_001/08_user.wav",
+      "round": 4,
+      "audio_src": "human_fb98a91e0950.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "That's wonderful to hear. It sounds like you've really found a way to frame this in your mind that makes it feel doable, and that's the most important part. You've completely got it—it's about shrinking the \"event\" down from a monumental confrontation into a simple, casual comment.\n\nYou took the idea of a low-pressure moment and immediately pictured exactly what that looks like in your daily life—folding laundry, scrolling on your phones. That's perfect. And starting with \"by the way\" is like a key that unlocks the whole casual tone.\n\nIt's amazing how much of the anxiety comes from the picture we have in our heads of how the conversation *could* go. By replacing that big, scary picture with a small, normal, even boring one, you've taken all the pressure off. You're not preparing for a battle; you're just preparing to say a single sentence at a normal moment.\n\nIt sounds like you're really ready. You've got the words, you've got the timing, and most importantly, you've found a way to see it that feels calm and manageable. You can absolutely do this.",
+      "audio": "audio/gemini/d2/D2_001/09_model.wav",
+      "round": 4,
+      "audio_src": "gemini_tts_c344b518.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Yeah, thank you. Seriously. I... I actually feel like I can do this now. You've helped me break it down into something that isn't this huge, scary thing in my head anymore. It's just a small conversation. I really appreciate it. This was... yeah, this was incredibly helpful.",
+      "audio": "audio/gemini/d2/D2_001/10_user.wav",
+      "round": 5,
+      "audio_src": "human_5803a07d3caa.wav"
+    }
+  ]
+}

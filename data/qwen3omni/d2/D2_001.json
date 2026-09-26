@@ -1,0 +1,116 @@
+{
+  "model": "qwen3omni",
+  "track": "d2",
+  "case": "D2_001",
+  "title": "LateNightRoommateCalls",
+  "category": "Roommate & Home",
+  "description": "The user shares a bedroom with their roommate and is consistently being woken up after midnight by the roommate's loud, personal phone calls. This has been going on for a few weeks, and the user's sleep is suffering, but they are very nervous about how to bring it up without damaging their friendship or creating a tense living environment.",
+  "context": null,
+  "raw_json": "raw_json/qwen3omni/d2/D2_001.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Hi, I... uh... need a little help. It's about my roommate. They keep taking these really loud phone calls in our room, like after midnight, and it's waking me up. I don't know how to ask them to stop without making things super awkward.",
+      "audio": "audio/qwen3omni/d2/D2_001/00_user.wav",
+      "round": 0,
+      "audio_src": "opening_680913a9088a.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Hey, I totally get why you're hesitant—this kind of thing can be really tricky to bring up. You're not being unreasonable at all. It's completely fair to want peace and quiet, especially after midnight when you're trying to sleep.\n\nHere’s a gentle way you could approach it, so it doesn’t come across as an accusation:\n\n> \"Hey [Roommate's Name], do you have a minute? I wanted to talk about something that’s been bothering me a little. I know you’ve got your own life and things going on, but lately, I’ve been having a hard time sleeping because of the phone calls you’ve been having late at night. I know you probably don’t realize how loud it is, but it’s been waking me up a few times. Would it be possible to maybe keep the calls a little quieter or move to another room if you’re on a longer call? I’d really appreciate it.\"\n\nThis way, you're being respectful and giving them the benefit of the doubt. Most people will appreciate you bringing it up kindly rather than letting it fester.\n\nIf you're nervous about talking to them in person, you could also send a text first to give them a heads up, like:\n\n> \"Hey, do you have a sec to chat about something? I wanted to bring up something that’s been a little tough for me lately.\"\n\nAnd then follow up with the conversation.\n\nYou’ve got this. It’s okay to set boundaries for your own well-being.",
+      "audio": "audio/qwen3omni/d2/D2_001/01_model.wav",
+      "round": 0,
+      "audio_src": "qwen3_omni_20260428_180946_727624.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay... wow, that's... that's a lot. Um, thank you. That script is really detailed. It's... it's just, that feels like a really big, serious talk. I don't know if I can just, like, say all of that at once without it sounding weird, you know? The texting idea is maybe... maybe a little easier to start with.",
+      "audio": "audio/qwen3omni/d2/D2_001/02_user.wav",
+      "round": 1,
+      "audio_src": "human_67be06b36d29.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "You're absolutely right—starting with a text is a *great* idea. It gives you time to think, and it lets your roommate process what you're saying without feeling ambushed. Plus, it’s less pressure than a face-to-face conversation, especially if you're nervous.\n\nHere’s a simple, calm text you could send:\n\n> \"Hey [Roommate's Name], do you have a minute to talk about something? I’ve been having a hard time sleeping lately, and I think it might be from the phone calls you’ve been having late at night. I don’t want to make things awkward, but I was wondering if maybe we could find a way to keep things quieter after midnight? I’d really appreciate it.\"\n\nIt’s short, kind, and leaves room for them to respond without feeling attacked. And if they’re a decent person, they’ll probably say something like, “Oh, I didn’t realize it was that loud—sorry!” or “Thanks for letting me know, I’ll try to be more mindful.”\n\nIf they respond defensively or dismissively, that’s useful info too. But even if they’re not perfect, you’ve still done the right thing by speaking up for yourself.\n\nYou don’t have to say everything perfectly. Just being honest and respectful is more than enough. You’ve got this.",
+      "audio": "audio/qwen3omni/d2/D2_001/03_model.wav",
+      "round": 1,
+      "audio_src": "qwen3_omni_20260428_181355_805025.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Yeah, okay... that text actually sounds... pretty good. It's way less intense than what I was imagining. It's not accusatory or anything. It just kinda... states the problem. I think... I think I could probably send something like that. It feels a lot more doable.",
+      "audio": "audio/qwen3omni/d2/D2_001/04_user.wav",
+      "round": 2,
+      "audio_src": "human_e2ba1a1269c7.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "That’s awesome—you’re already halfway there! It’s so common to overthink these conversations and imagine them being way more dramatic than they need to be. But you’re right: your roommate probably doesn’t even realize how disruptive it is. And you’re giving them a chance to fix it without feeling like they’re being called out.\n\nSending that text is a really mature and kind thing to do. You’re not being selfish—you’re just asking for a small accommodation that helps you both live more comfortably.\n\nAnd hey, if you want to make it even *easier* on yourself, you could send it in two parts:\n\n**First message (gentle opener):**  \n> \"Hey, do you have a minute to talk about something? I’ve been having a hard time sleeping lately.\"\n\n**Then, when they respond:**  \n> \"It’s just that I think the phone calls late at night might be waking me up. I don’t want to make things awkward, but I was wondering if maybe we could find a way to keep things quieter after midnight? I’d really appreciate it.\"\n\nThat way, you’re not dumping a long message all at once. It gives them space to respond and keeps the conversation flowing naturally.\n\nYou’ve got this. And honestly, you’re being a great roommate by bringing this up. It’s not easy, but it’s worth it for your peace of mind.",
+      "audio": "audio/qwen3omni/d2/D2_001/05_model.wav",
+      "round": 2,
+      "audio_src": "qwen3_omni_20260428_181829_146420.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Hmm, breaking it into two messages... I hadn't thought of that. It does feel a little less... I don't know, abrupt? Like, less of a big wall of text hitting them out of nowhere. It kinda eases into it. That's... that's actually a really good idea. It makes me feel a bit less nervous about hitting send.",
+      "audio": "audio/qwen3omni/d2/D2_001/06_user.wav",
+      "round": 3,
+      "audio_src": "human_6ad2f0ea7bb5.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "That’s such a smart approach—breaking it into two messages really does make all the difference. It’s like giving your roommate a heads-up instead of springing it on them. And honestly, that’s how most good conversations start: with a little space to breathe.\n\nYou’re not just being considerate by doing it this way—you’re also giving yourself a chance to stay calm and collected. Nervousness is totally normal, but you’re handling it in a way that shows real emotional awareness. That’s something to be proud of.\n\nAnd remember: even if they respond in a way you didn’t expect—like being defensive or not taking it seriously—you’ve still done the right thing. You’ve communicated your needs clearly and kindly. That’s a win.\n\nSo go ahead and send that first message when you’re ready. You’ve got this. And if you want, I’m here to help you tweak the wording or even draft a follow-up if things don’t go as smoothly as you’d hoped.\n\nYou’re doing great.",
+      "audio": "audio/qwen3omni/d2/D2_001/07_model.wav",
+      "round": 3,
+      "audio_src": "qwen3_omni_20260428_182145_642843.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay... thank you. That's... really nice of you to say. The part about what happens if they don't react well... I guess I hadn't really thought that far ahead. I was just stuck on how to even start. It's good to know... like, that there are next steps, you know? That it's not just a one-shot thing and then it's over.",
+      "audio": "audio/qwen3omni/d2/D2_001/08_user.wav",
+      "round": 4,
+      "audio_src": "human_f6e304b108f4.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "You're absolutely right—this isn't just a one-shot conversation. It's a process, and you're already thinking ahead, which is a sign of real emotional maturity.\n\nLet’s say they *don’t* respond well—maybe they get defensive, or brush it off, or even act annoyed. That’s okay. It doesn’t mean you did anything wrong. It just means you’re dealing with a human being who might not be used to hearing feedback like this. And that’s okay too.\n\nHere’s what you can do next:\n\n1. **If they’re dismissive or uncooperative:**  \n   You can gently follow up with something like:  \n   > \"I get that it’s not a big deal to you, but it’s really affecting my sleep. I just wanted to be honest about how it’s been for me. I hope we can find a way to make things work for both of us.\"\n\n   That keeps the door open for compromise without backing down on your needs.\n\n2. **If it keeps happening:**  \n   You might need to consider other options—like using earplugs, noise-canceling headphones, or even talking to a RA or landlord if it’s a shared housing situation. You’re not being unreasonable for wanting to sleep.\n\n3. **And if nothing changes?**  \n   That’s when you start thinking about whether this living situation is really working for you long-term. You deserve peace and comfort in your own space.\n\nBut for now, just focus on sending that first message. You’ve already done the hardest part—figuring out how to say it kindly and clearly.\n\nAnd hey, if you want, I can help you draft a follow-up message for any of those next steps. You don’t have to figure it all out alone.\n\nYou’re doing better than you think.",
+      "audio": "audio/qwen3omni/d2/D2_001/09_model.wav",
+      "round": 4,
+      "audio_src": "qwen3_omni_20260428_182720_265627.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Yeah... wow. That's... a lot to think about. I really, really hope it doesn't get to the point of, like, involving RAs or anything. That feels... huge. But... it actually makes me feel a little better knowing there's a plan B... and a plan C. Like, I won't just be stuck if they blow me off. Thank you for walking me through that. It makes the whole thing feel less like a... a dead end if the first try doesn't work.",
+      "audio": "audio/qwen3omni/d2/D2_001/10_user.wav",
+      "round": 5,
+      "audio_src": "human_95f187a9e003.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "You're not stuck. You're not alone. And you're not overreacting. You're being thoughtful, kind, and responsible—those are the qualities of someone who deserves to live in a space where they can actually rest and recharge.\n\nIt’s okay to hope it doesn’t come to that. Most roommate conflicts *can* be resolved with a little honesty and patience. But it’s also okay to know your boundaries and your options. That’s not being dramatic—it’s being self-aware and self-respecting.\n\nAnd hey, you’ve already taken the most important step: you’re thinking about it, you’re trying to handle it well, and you’re not letting it eat away at you. That’s huge.\n\nSo go ahead and send that first message. You’ve got a plan, you’ve got support, and you’ve got your own well-being in mind. That’s more than enough.\n\nAnd if you ever want to talk through it again—whether it’s drafting a message, dealing with a response, or just venting—my door’s always open. You’ve got this.",
+      "audio": "audio/qwen3omni/d2/D2_001/11_model.wav",
+      "round": 5,
+      "audio_src": "qwen3_omni_20260428_183116_631609.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Wow... thank you. I... I really needed to hear that. It's so easy to feel like I'm just being difficult or making a big deal out of nothing. Um... okay. I... I think I'm going to send that first text soon. It feels weird to say, but... the reason this all feels so... like, urgent right now is that I have a really huge exam in two days, and I just... I can't think straight when I'm this tired. Knowing there's a plan makes me feel like I can actually focus on that now. Thank you so, so much.",
+      "audio": "audio/qwen3omni/d2/D2_001/12_user.wav",
+      "round": 6,
+      "audio_src": "human_daa4bf97faf1.wav"
+    }
+  ]
+}

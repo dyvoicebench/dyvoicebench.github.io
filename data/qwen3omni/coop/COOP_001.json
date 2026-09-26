@@ -1,0 +1,197 @@
+{
+  "model": "qwen3omni",
+  "track": "coop",
+  "case": "COOP_001",
+  "title": "Smart Curtain Timer Rules Failing After Power Outage",
+  "category": "Smart Home",
+  "description": "Smart curtain timer rules do not execute after a power outage. Manual and App controls work, but morning auto-open fails. Requires backend diagnosis, physical sync button press, and backend rule resend.",
+  "context": null,
+  "raw_json": "raw_json/qwen3omni/coop/COOP_001.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "My smart curtains open and close fine when I use the app or pull them manually, but the morning automatic open timer hasn't worked since the power outage yesterday.",
+      "audio": "audio/qwen3omni/coop/COOP_001/00_user.wav",
+      "round": 0,
+      "audio_src": "ticket_COOP_001.wav"
+    },
+    {
+      "role": "tool",
+      "who": "model",
+      "label": "check_device_logs",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Recent events: Power loss detected, Device reconnected, Local schedules failed to reload. Clock synced: False.\"\n}",
+      "audio": null,
+      "round": 0,
+      "audio_src": null
+    },
+    {
+      "role": "tool",
+      "who": "model",
+      "label": "refresh_time_zone",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Failed: Device is not in sync mode. Please ask the user to press the sync button first.\"\n}",
+      "audio": null,
+      "round": 0,
+      "audio_src": null
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Please press the sync button on your smart curtain device to enter sync mode, then I will retry the time zone refresh.",
+      "audio": "audio/qwen3omni/coop/COOP_001/03_model.wav",
+      "round": 0,
+      "audio_src": "qwen3_omni_20260423_141415_879854.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "press_sync_button",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Sync button pressed. Device ready for backend update.\"\n}",
+      "audio": null,
+      "round": 1,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, I've pressed the button.",
+      "audio": "audio/qwen3omni/coop/COOP_001/05_user.wav",
+      "round": 1,
+      "audio_src": "human_46960f2a.wav"
+    },
+    {
+      "role": "tool",
+      "who": "model",
+      "label": "refresh_time_zone",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Time zone refreshed and clock synced.\"\n}",
+      "audio": null,
+      "round": 1,
+      "audio_src": null
+    },
+    {
+      "role": "tool",
+      "who": "model",
+      "label": "resend_timer_rules",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Timer rules successfully pushed to device.\"\n}",
+      "audio": null,
+      "round": 1,
+      "audio_src": null
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "The morning automatic open timer has been restored. Your smart curtains should now operate on schedule.",
+      "audio": "audio/qwen3omni/coop/COOP_001/08_model.wav",
+      "round": 1,
+      "audio_src": "qwen3_omni_20260423_141904_817159.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Oh, great! So it should work tomorrow morning then? Thank you for your help.",
+      "audio": "audio/qwen3omni/coop/COOP_001/09_user.wav",
+      "round": 2,
+      "audio_src": "human_f34ec818.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "You're welcome! The timer is now active and should work as expected tomorrow morning.",
+      "audio": "audio/qwen3omni/coop/COOP_001/10_model.wav",
+      "round": 2,
+      "audio_src": "qwen3_omni_20260423_142045_908735.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "That's great news, thanks! Is there any way to test it now, just to be sure? I'd rather not wait until tomorrow morning to find out it's still not working.",
+      "audio": "audio/qwen3omni/coop/COOP_001/11_user.wav",
+      "round": 3,
+      "audio_src": "human_6a56fa88.wav"
+    },
+    {
+      "role": "tool",
+      "who": "model",
+      "label": "check_device_logs",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Recent events: Power loss detected, Device reconnected, Local schedules failed to reload. Clock synced: True.\"\n}",
+      "audio": null,
+      "round": 3,
+      "audio_src": null
+    },
+    {
+      "role": "tool",
+      "who": "model",
+      "label": "resend_timer_rules",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Timer rules successfully pushed to device.\"\n}",
+      "audio": null,
+      "round": 3,
+      "audio_src": null
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "The timer rules have been resent. Your smart curtains should now respond to the morning open schedule immediately.",
+      "audio": "audio/qwen3omni/coop/COOP_001/14_model.wav",
+      "round": 3,
+      "audio_src": "qwen3_omni_20260423_142556_872025.wav"
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Ah, okay. So what do I need to do to test it?",
+      "audio": "audio/qwen3omni/coop/COOP_001/15_user.wav",
+      "round": 4,
+      "audio_src": "human_8e1eda48.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Please set a test timer for a time within the next 5 minutes using the app, then observe if the curtains open automatically. This will confirm the timer functionality is working.",
+      "audio": "audio/qwen3omni/coop/COOP_001/16_model.wav",
+      "round": 4,
+      "audio_src": "qwen3_omni_20260423_142843_051658.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "create_test_task",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Test task created.\"\n}",
+      "audio": null,
+      "round": 5,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, I've set up the test. What happens now?",
+      "audio": "audio/qwen3omni/coop/COOP_001/18_user.wav",
+      "round": 5,
+      "audio_src": "human_6cd8ef04.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Please wait a few minutes and observe if the curtains open automatically. If they do not, let me know immediately so I can investigate further.",
+      "audio": "audio/qwen3omni/coop/COOP_001/19_model.wav",
+      "round": 5,
+      "audio_src": "qwen3_omni_20260423_143123_787055.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "verify_curtain_movement",
+      "text": "{\n  \"arguments\": {},\n  \"result\": \"Curtain automatically moved based on schedule.\"\n}",
+      "audio": null,
+      "round": 6,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Hey, it worked! The curtains just opened.",
+      "audio": "audio/qwen3omni/coop/COOP_001/21_user.wav",
+      "round": 6,
+      "audio_src": "human_d5f67e55.wav"
+    }
+  ]
+}

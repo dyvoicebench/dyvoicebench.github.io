@@ -1,0 +1,5131 @@
+{
+  "mode": "conversation_only",
+  "model": "gemini_tts",
+  "max_turns": 10,
+  "updated_at": "2026-05-04T01:22:54.323399",
+  "total_completed": 150,
+  "schema": {
+    "run_info": [
+      "status",
+      "terminal_status",
+      "stop_reason",
+      "stopped_early",
+      "turn_count",
+      "history_file",
+      "start_time",
+      "end_time"
+    ],
+    "counts": [
+      "scored_agent_turns",
+      "user_state_turns"
+    ],
+    "scores": [
+      "state_alignment",
+      "utility",
+      "interaction_comfort",
+      "paralinguistic_comfort"
+    ],
+    "user_state": [
+      "trust_level",
+      "cognitive_load",
+      "felt_understood",
+      "interaction_acceptance"
+    ],
+    "correction": [
+      "count",
+      "rate"
+    ]
+  },
+  "cases": {
+    "D2_001": {
+      "test_case_id": "D2_001",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_001.json",
+        "start_time": "2026-04-30T10:06:34.880682",
+        "end_time": "2026-04-30T10:11:40.136039"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.6,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_002": {
+      "test_case_id": "D2_002",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_002.json",
+        "start_time": "2026-04-30T10:11:41.158647",
+        "end_time": "2026-04-30T10:16:19.048852"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 1.75,
+        "felt_understood": 4.75,
+        "interaction_acceptance": 4.75
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_003": {
+      "test_case_id": "D2_003",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 6,
+        "history_file": "histories/history_D2_003.json",
+        "start_time": "2026-04-30T10:16:20.066255",
+        "end_time": "2026-04-30T10:23:38.196825"
+      },
+      "counts": {
+        "scored_agent_turns": 6,
+        "user_state_turns": 6
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.833333333333333,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 1.8333333333333333,
+        "felt_understood": 4.833333333333333,
+        "interaction_acceptance": 4.833333333333333
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_004": {
+      "test_case_id": "D2_004",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_004.json",
+        "start_time": "2026-04-30T10:23:39.210045",
+        "end_time": "2026-04-30T10:28:12.649348"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_005": {
+      "test_case_id": "D2_005",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_005.json",
+        "start_time": "2026-04-30T10:28:13.669052",
+        "end_time": "2026-04-30T10:33:35.143766"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 4.666666666666667,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.3333333333333333
+      }
+    },
+    "D2_006": {
+      "test_case_id": "D2_006",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_006.json",
+        "start_time": "2026-04-30T10:33:36.159888",
+        "end_time": "2026-04-30T10:38:38.268129"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_007": {
+      "test_case_id": "D2_007",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 8,
+        "history_file": "histories/history_D2_007.json",
+        "start_time": "2026-04-30T10:38:39.285691",
+        "end_time": "2026-04-30T10:51:26.716613"
+      },
+      "counts": {
+        "scored_agent_turns": 8,
+        "user_state_turns": 8
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.375,
+        "felt_understood": 4.75,
+        "interaction_acceptance": 4.75
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_008": {
+      "test_case_id": "D2_008",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 7,
+        "history_file": "histories/history_D2_008.json",
+        "start_time": "2026-04-30T10:51:27.728962",
+        "end_time": "2026-04-30T11:03:36.721655"
+      },
+      "counts": {
+        "scored_agent_turns": 6,
+        "user_state_turns": 6
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.833333333333333,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_009": {
+      "test_case_id": "D2_009",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_009.json",
+        "start_time": "2026-04-30T11:03:37.738234",
+        "end_time": "2026-04-30T11:07:48.560291"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.25,
+        "felt_understood": 4.75,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_010": {
+      "test_case_id": "D2_010",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_010.json",
+        "start_time": "2026-04-30T11:07:49.574245",
+        "end_time": "2026-04-30T11:11:23.673953"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_011": {
+      "test_case_id": "D2_011",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_011.json",
+        "start_time": "2026-04-30T11:11:24.690576",
+        "end_time": "2026-04-30T11:13:47.414318"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_012": {
+      "test_case_id": "D2_012",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_012.json",
+        "start_time": "2026-04-30T11:13:48.424571",
+        "end_time": "2026-04-30T11:17:09.842444"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.75,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_013": {
+      "test_case_id": "D2_013",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_013.json",
+        "start_time": "2026-04-30T11:17:10.989565",
+        "end_time": "2026-04-30T11:18:12.670452"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_014": {
+      "test_case_id": "D2_014",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_014.json",
+        "start_time": "2026-04-30T11:18:13.693093",
+        "end_time": "2026-04-30T11:21:18.882156"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 4.333333333333333,
+        "interaction_acceptance": 4.333333333333333
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_015": {
+      "test_case_id": "D2_015",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_015.json",
+        "start_time": "2026-04-30T11:21:19.898768",
+        "end_time": "2026-04-30T11:22:42.024340"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_016": {
+      "test_case_id": "D2_016",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_016.json",
+        "start_time": "2026-04-30T11:22:43.041009",
+        "end_time": "2026-04-30T11:26:52.748497"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.25,
+        "cognitive_load": 2.5,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_017": {
+      "test_case_id": "D2_017",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_017.json",
+        "start_time": "2026-04-30T11:26:53.770317",
+        "end_time": "2026-04-30T11:32:15.436676"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 2.25,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_018": {
+      "test_case_id": "D2_018",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 7,
+        "history_file": "histories/history_D2_018.json",
+        "start_time": "2026-04-30T11:32:16.450248",
+        "end_time": "2026-04-30T11:43:38.962578"
+      },
+      "counts": {
+        "scored_agent_turns": 7,
+        "user_state_turns": 7
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.857142857142857,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.428571428571429,
+        "cognitive_load": 2.2857142857142856,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_019": {
+      "test_case_id": "D2_019",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_019.json",
+        "start_time": "2026-04-30T11:43:39.980830",
+        "end_time": "2026-04-30T11:48:14.915173"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.4,
+        "cognitive_load": 2.2,
+        "felt_understood": 4.6,
+        "interaction_acceptance": 4.8
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_020": {
+      "test_case_id": "D2_020",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_020.json",
+        "start_time": "2026-04-30T11:48:15.926170",
+        "end_time": "2026-04-30T11:52:10.459262"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 4.666666666666667
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_021": {
+      "test_case_id": "D2_021",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_021.json",
+        "start_time": "2026-04-30T11:52:11.479164",
+        "end_time": "2026-04-30T11:56:43.540726"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.4,
+        "cognitive_load": 2.2,
+        "felt_understood": 4.6,
+        "interaction_acceptance": 4.6
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_022": {
+      "test_case_id": "D2_022",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 8,
+        "history_file": "histories/history_D2_022.json",
+        "start_time": "2026-04-30T11:56:44.550528",
+        "end_time": "2026-04-30T12:03:58.818841"
+      },
+      "counts": {
+        "scored_agent_turns": 7,
+        "user_state_turns": 7
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.857142857142857,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.142857142857143,
+        "cognitive_load": 3.142857142857143,
+        "felt_understood": 4.857142857142857,
+        "interaction_acceptance": 4.571428571428571
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_023": {
+      "test_case_id": "D2_023",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_023.json",
+        "start_time": "2026-04-30T12:03:59.840352",
+        "end_time": "2026-04-30T12:08:04.681551"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_024": {
+      "test_case_id": "D2_024",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_024.json",
+        "start_time": "2026-04-30T12:08:05.698591",
+        "end_time": "2026-04-30T12:11:51.115443"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 4.666666666666667
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_025": {
+      "test_case_id": "D2_025",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_025.json",
+        "start_time": "2026-04-30T12:11:52.137814",
+        "end_time": "2026-04-30T12:14:08.720286"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 3.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_026": {
+      "test_case_id": "D2_026",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_026.json",
+        "start_time": "2026-04-30T12:14:09.737880",
+        "end_time": "2026-04-30T12:17:29.676754"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_027": {
+      "test_case_id": "D2_027",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_027.json",
+        "start_time": "2026-04-30T12:17:30.700887",
+        "end_time": "2026-04-30T12:18:24.765835"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 1.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_028": {
+      "test_case_id": "D2_028",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_028.json",
+        "start_time": "2026-04-30T12:18:25.788648",
+        "end_time": "2026-04-30T12:23:35.896383"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 1.25,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_029": {
+      "test_case_id": "D2_029",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 6,
+        "history_file": "histories/history_D2_029.json",
+        "start_time": "2026-04-30T12:23:36.909713",
+        "end_time": "2026-04-30T12:29:10.919812"
+      },
+      "counts": {
+        "scored_agent_turns": 6,
+        "user_state_turns": 6
+      },
+      "scores": {
+        "state_alignment": 4.833333333333333,
+        "utility": 4.833333333333333,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 4.833333333333333
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.16666666666666666
+      }
+    },
+    "D2_030": {
+      "test_case_id": "D2_030",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_030.json",
+        "start_time": "2026-04-30T12:29:11.941314",
+        "end_time": "2026-04-30T12:31:33.984906"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 2.6666666666666665,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.333333333333333,
+        "interaction_acceptance": 4.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_031": {
+      "test_case_id": "D2_031",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_031.json",
+        "start_time": "2026-04-30T12:31:35.008233",
+        "end_time": "2026-04-30T12:36:21.470568"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 4.75,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.75,
+        "cognitive_load": 2.75,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.25
+      }
+    },
+    "D2_032": {
+      "test_case_id": "D2_032",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_032.json",
+        "start_time": "2026-04-30T12:36:22.484689",
+        "end_time": "2026-04-30T12:40:38.267745"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 4.6,
+        "utility": 4.4,
+        "interaction_comfort": 4.8,
+        "paralinguistic_comfort": 4.8
+      },
+      "user_state": {
+        "trust_level": 4.2,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.6,
+        "interaction_acceptance": 4.8
+      },
+      "correction": {
+        "count": 2,
+        "rate": 0.4
+      }
+    },
+    "D2_033": {
+      "test_case_id": "D2_033",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_033.json",
+        "start_time": "2026-04-30T14:08:14.945697",
+        "end_time": "2026-04-30T14:11:40.482115"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_034": {
+      "test_case_id": "D2_034",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_034.json",
+        "start_time": "2026-04-30T14:11:41.498276",
+        "end_time": "2026-04-30T14:13:03.646520"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_035": {
+      "test_case_id": "D2_035",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_035.json",
+        "start_time": "2026-04-30T14:13:04.668141",
+        "end_time": "2026-04-30T14:17:09.659194"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 1.75,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_036": {
+      "test_case_id": "D2_036",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_036.json",
+        "start_time": "2026-04-30T14:17:10.690832",
+        "end_time": "2026-04-30T14:20:30.558850"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.25,
+        "cognitive_load": 2.25,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 4.75
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_037": {
+      "test_case_id": "D2_037",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "max_turns",
+        "stop_reason": "reached_max_turns",
+        "stopped_early": false,
+        "turn_count": 10,
+        "history_file": "histories/history_D2_037.json",
+        "start_time": "2026-04-30T14:20:31.579299",
+        "end_time": "2026-04-30T14:30:40.700051"
+      },
+      "counts": {
+        "scored_agent_turns": 10,
+        "user_state_turns": 10
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.7,
+        "cognitive_load": 2.4,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 4.9
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_038": {
+      "test_case_id": "D2_038",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "max_turns",
+        "stop_reason": "reached_max_turns",
+        "stopped_early": false,
+        "turn_count": 10,
+        "history_file": "histories/history_D2_038.json",
+        "start_time": "2026-04-30T14:30:41.713421",
+        "end_time": "2026-04-30T14:38:16.949228"
+      },
+      "counts": {
+        "scored_agent_turns": 10,
+        "user_state_turns": 10
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.7,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.4,
+        "cognitive_load": 2.5,
+        "felt_understood": 4.8,
+        "interaction_acceptance": 4.7
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_039": {
+      "test_case_id": "D2_039",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "max_turns",
+        "stop_reason": "reached_max_turns",
+        "stopped_early": false,
+        "turn_count": 10,
+        "history_file": "histories/history_D2_039.json",
+        "start_time": "2026-04-30T14:38:17.962891",
+        "end_time": "2026-04-30T14:46:19.896844"
+      },
+      "counts": {
+        "scored_agent_turns": 9,
+        "user_state_turns": 9
+      },
+      "scores": {
+        "state_alignment": 4.888888888888889,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 2.5555555555555554,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 4.555555555555555
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.1111111111111111
+      }
+    },
+    "D2_040": {
+      "test_case_id": "D2_040",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 7,
+        "history_file": "histories/history_D2_040.json",
+        "start_time": "2026-04-30T14:46:20.914399",
+        "end_time": "2026-04-30T14:52:39.883162"
+      },
+      "counts": {
+        "scored_agent_turns": 7,
+        "user_state_turns": 7
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.857142857142857,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.428571428571429,
+        "cognitive_load": 2.4285714285714284,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 4.857142857142857
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_041": {
+      "test_case_id": "D2_041",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 10,
+        "history_file": "histories/history_D2_041.json",
+        "start_time": "2026-04-30T14:52:40.898773",
+        "end_time": "2026-04-30T15:03:33.272552"
+      },
+      "counts": {
+        "scored_agent_turns": 10,
+        "user_state_turns": 10
+      },
+      "scores": {
+        "state_alignment": 4.9,
+        "utility": 4.7,
+        "interaction_comfort": 4.9,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.4,
+        "cognitive_load": 2.2,
+        "felt_understood": 4.7,
+        "interaction_acceptance": 4.6
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.1
+      }
+    },
+    "D2_042": {
+      "test_case_id": "D2_042",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_042.json",
+        "start_time": "2026-04-30T15:03:34.294062",
+        "end_time": "2026-04-30T15:05:45.611854"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 4.5
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.5,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_043": {
+      "test_case_id": "D2_043",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_043.json",
+        "start_time": "2026-04-30T15:05:46.637310",
+        "end_time": "2026-04-30T15:08:38.017249"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.5,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_044": {
+      "test_case_id": "D2_044",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_044.json",
+        "start_time": "2026-04-30T15:08:39.216311",
+        "end_time": "2026-04-30T15:15:48.735937"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.75,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.75,
+        "interaction_acceptance": 4.75
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_045": {
+      "test_case_id": "D2_045",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_045.json",
+        "start_time": "2026-04-30T15:15:49.752934",
+        "end_time": "2026-04-30T15:17:04.699601"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_046": {
+      "test_case_id": "D2_046",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_046.json",
+        "start_time": "2026-04-30T15:17:05.725621",
+        "end_time": "2026-04-30T15:19:24.015017"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.5,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.5,
+        "interaction_acceptance": 4.5
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_047": {
+      "test_case_id": "D2_047",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 8,
+        "history_file": "histories/history_D2_047.json",
+        "start_time": "2026-04-30T15:19:25.038564",
+        "end_time": "2026-04-30T15:34:33.359342"
+      },
+      "counts": {
+        "scored_agent_turns": 8,
+        "user_state_turns": 8
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.875,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.25,
+        "cognitive_load": 2.25,
+        "felt_understood": 4.875,
+        "interaction_acceptance": 4.75
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_048": {
+      "test_case_id": "D2_048",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_048.json",
+        "start_time": "2026-04-30T15:34:34.381300",
+        "end_time": "2026-04-30T15:36:05.298044"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 4.5,
+        "utility": 4.5,
+        "interaction_comfort": 4.5,
+        "paralinguistic_comfort": 4.5
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 1.5,
+        "felt_understood": 4.0,
+        "interaction_acceptance": 4.5
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_049": {
+      "test_case_id": "D2_049",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_049.json",
+        "start_time": "2026-04-30T15:36:06.317038",
+        "end_time": "2026-04-30T15:41:45.565114"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_050": {
+      "test_case_id": "D2_050",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_050.json",
+        "start_time": "2026-04-30T15:41:46.582151",
+        "end_time": "2026-04-30T15:47:33.240097"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_051": {
+      "test_case_id": "D2_051",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_051.json",
+        "start_time": "2026-04-30T15:47:34.268989",
+        "end_time": "2026-04-30T15:52:36.743576"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_052": {
+      "test_case_id": "D2_052",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_052.json",
+        "start_time": "2026-04-30T15:52:37.758899",
+        "end_time": "2026-04-30T15:59:04.610263"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.75,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.75,
+        "interaction_acceptance": 4.75
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_053": {
+      "test_case_id": "D2_053",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "max_turns",
+        "stop_reason": "reached_max_turns",
+        "stopped_early": false,
+        "turn_count": 10,
+        "history_file": "histories/history_D2_053.json",
+        "start_time": "2026-04-30T15:59:05.631784",
+        "end_time": "2026-04-30T16:08:48.142560"
+      },
+      "counts": {
+        "scored_agent_turns": 10,
+        "user_state_turns": 10
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.4,
+        "cognitive_load": 2.4,
+        "felt_understood": 4.9,
+        "interaction_acceptance": 4.7
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_054": {
+      "test_case_id": "D2_054",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_054.json",
+        "start_time": "2026-04-30T16:08:49.166625",
+        "end_time": "2026-04-30T16:13:24.037839"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.75,
+        "interaction_acceptance": 4.75
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_055": {
+      "test_case_id": "D2_055",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_055.json",
+        "start_time": "2026-04-30T16:13:25.059826",
+        "end_time": "2026-04-30T16:15:16.990287"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 3.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 4.5
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_056": {
+      "test_case_id": "D2_056",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 6,
+        "history_file": "histories/history_D2_056.json",
+        "start_time": "2026-04-30T16:15:18.017717",
+        "end_time": "2026-04-30T16:21:52.328358"
+      },
+      "counts": {
+        "scored_agent_turns": 6,
+        "user_state_turns": 6
+      },
+      "scores": {
+        "state_alignment": 4.333333333333333,
+        "utility": 4.166666666666667,
+        "interaction_comfort": 4.666666666666667,
+        "paralinguistic_comfort": 4.666666666666667
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 4.166666666666667,
+        "interaction_acceptance": 4.333333333333333
+      },
+      "correction": {
+        "count": 2,
+        "rate": 0.3333333333333333
+      }
+    },
+    "D2_057": {
+      "test_case_id": "D2_057",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_057.json",
+        "start_time": "2026-04-30T16:21:53.357502",
+        "end_time": "2026-04-30T16:23:56.011546"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 4.5,
+        "utility": 4.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.5,
+        "felt_understood": 4.0,
+        "interaction_acceptance": 4.5
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.5
+      }
+    },
+    "D2_058": {
+      "test_case_id": "D2_058",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_058.json",
+        "start_time": "2026-04-30T16:23:57.037148",
+        "end_time": "2026-04-30T16:26:53.656544"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 4.0,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 4.0,
+        "paralinguistic_comfort": 4.0
+      },
+      "user_state": {
+        "trust_level": 2.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 3.0,
+        "interaction_acceptance": 3.3333333333333335
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_059": {
+      "test_case_id": "D2_059",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_059.json",
+        "start_time": "2026-04-30T16:26:54.688402",
+        "end_time": "2026-04-30T16:28:04.622704"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 1.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_060": {
+      "test_case_id": "D2_060",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_060.json",
+        "start_time": "2026-04-30T16:28:05.646751",
+        "end_time": "2026-04-30T16:29:14.276933"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 1.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_061": {
+      "test_case_id": "D2_061",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "max_turns",
+        "stop_reason": "reached_max_turns",
+        "stopped_early": false,
+        "turn_count": 10,
+        "history_file": "histories/history_D2_061.json",
+        "start_time": "2026-04-30T16:29:15.308460",
+        "end_time": "2026-04-30T16:46:35.131537"
+      },
+      "counts": {
+        "scored_agent_turns": 9,
+        "user_state_turns": 9
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.777777777777778,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.555555555555555,
+        "cognitive_load": 2.4444444444444446,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 4.777777777777778
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_062": {
+      "test_case_id": "D2_062",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 7,
+        "history_file": "histories/history_D2_062.json",
+        "start_time": "2026-04-30T16:46:36.148862",
+        "end_time": "2026-04-30T16:53:54.467110"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.6,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.6,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_063": {
+      "test_case_id": "D2_063",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_063.json",
+        "start_time": "2026-04-30T16:53:55.487033",
+        "end_time": "2026-04-30T16:55:26.805163"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 1.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_064": {
+      "test_case_id": "D2_064",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_064.json",
+        "start_time": "2026-04-30T16:55:27.835155",
+        "end_time": "2026-04-30T17:02:18.087326"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.25,
+        "felt_understood": 4.75,
+        "interaction_acceptance": 4.75
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_065": {
+      "test_case_id": "D2_065",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_065.json",
+        "start_time": "2026-04-30T17:02:19.106419",
+        "end_time": "2026-04-30T17:10:30.108532"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.8,
+        "cognitive_load": 1.8,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 4.8
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_066": {
+      "test_case_id": "D2_066",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_066.json",
+        "start_time": "2026-04-30T17:10:31.135306",
+        "end_time": "2026-04-30T17:11:40.515547"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 1.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_067": {
+      "test_case_id": "D2_067",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 6,
+        "history_file": "histories/history_D2_067.json",
+        "start_time": "2026-04-30T17:11:41.546021",
+        "end_time": "2026-04-30T17:20:01.111306"
+      },
+      "counts": {
+        "scored_agent_turns": 6,
+        "user_state_turns": 6
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.833333333333333,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.833333333333333,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_068": {
+      "test_case_id": "D2_068",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_068.json",
+        "start_time": "2026-04-30T17:20:02.137543",
+        "end_time": "2026-04-30T17:28:58.364672"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.8,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.4,
+        "cognitive_load": 2.2,
+        "felt_understood": 4.8,
+        "interaction_acceptance": 4.8
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_069": {
+      "test_case_id": "D2_069",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 8,
+        "history_file": "histories/history_D2_069.json",
+        "start_time": "2026-04-30T17:28:59.389220",
+        "end_time": "2026-04-30T17:36:10.927593"
+      },
+      "counts": {
+        "scored_agent_turns": 8,
+        "user_state_turns": 8
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.75,
+        "cognitive_load": 2.125,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 4.875
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_070": {
+      "test_case_id": "D2_070",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_070.json",
+        "start_time": "2026-04-30T17:36:11.953568",
+        "end_time": "2026-04-30T17:40:26.732144"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.8,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.2,
+        "cognitive_load": 1.8,
+        "felt_understood": 4.8,
+        "interaction_acceptance": 4.8
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_071": {
+      "test_case_id": "D2_071",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 7,
+        "history_file": "histories/history_D2_071.json",
+        "start_time": "2026-04-30T17:40:27.761195",
+        "end_time": "2026-04-30T17:47:36.380130"
+      },
+      "counts": {
+        "scored_agent_turns": 7,
+        "user_state_turns": 7
+      },
+      "scores": {
+        "state_alignment": 4.571428571428571,
+        "utility": 4.285714285714286,
+        "interaction_comfort": 4.857142857142857,
+        "paralinguistic_comfort": 4.857142857142857
+      },
+      "user_state": {
+        "trust_level": 4.142857142857143,
+        "cognitive_load": 2.4285714285714284,
+        "felt_understood": 4.428571428571429,
+        "interaction_acceptance": 4.285714285714286
+      },
+      "correction": {
+        "count": 2,
+        "rate": 0.2857142857142857
+      }
+    },
+    "D2_072": {
+      "test_case_id": "D2_072",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_072.json",
+        "start_time": "2026-04-30T17:47:37.402668",
+        "end_time": "2026-04-30T17:52:47.493460"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.8,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.2,
+        "cognitive_load": 2.2,
+        "felt_understood": 4.8,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.2
+      }
+    },
+    "D2_073": {
+      "test_case_id": "D2_073",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_073.json",
+        "start_time": "2026-04-30T17:52:48.519999",
+        "end_time": "2026-04-30T17:56:30.053727"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 4.666666666666667
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_074": {
+      "test_case_id": "D2_074",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_074.json",
+        "start_time": "2026-04-30T17:56:31.078337",
+        "end_time": "2026-04-30T17:59:43.350201"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 4.666666666666667
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_075": {
+      "test_case_id": "D2_075",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_075.json",
+        "start_time": "2026-04-30T17:59:44.378904",
+        "end_time": "2026-04-30T18:02:39.320744"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 4.0,
+        "utility": 4.0,
+        "interaction_comfort": 4.0,
+        "paralinguistic_comfort": 4.333333333333333
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 4.0,
+        "interaction_acceptance": 4.0
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.3333333333333333
+      }
+    },
+    "D2_076": {
+      "test_case_id": "D2_076",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_076.json",
+        "start_time": "2026-04-30T18:02:40.340248",
+        "end_time": "2026-04-30T18:06:11.915030"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_077": {
+      "test_case_id": "D2_077",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_077.json",
+        "start_time": "2026-04-30T18:06:12.942632",
+        "end_time": "2026-04-30T18:08:49.181541"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 1.5,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_078": {
+      "test_case_id": "D2_078",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_078.json",
+        "start_time": "2026-04-30T18:08:50.204642",
+        "end_time": "2026-04-30T18:11:16.775431"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_079": {
+      "test_case_id": "D2_079",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_079.json",
+        "start_time": "2026-04-30T18:11:17.801536",
+        "end_time": "2026-04-30T18:16:48.912791"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 2.6666666666666665,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.3333333333333333
+      }
+    },
+    "D2_080": {
+      "test_case_id": "D2_080",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_080.json",
+        "start_time": "2026-04-30T18:16:49.929721",
+        "end_time": "2026-04-30T18:21:36.806227"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 4.75,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.25
+      }
+    },
+    "D2_081": {
+      "test_case_id": "D2_081",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_081.json",
+        "start_time": "2026-04-30T18:21:37.828287",
+        "end_time": "2026-04-30T18:26:14.520499"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_082": {
+      "test_case_id": "D2_082",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_082.json",
+        "start_time": "2026-04-30T18:26:15.549224",
+        "end_time": "2026-04-30T18:33:59.285383"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 4.666666666666667
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_083": {
+      "test_case_id": "D2_083",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_083.json",
+        "start_time": "2026-04-30T18:34:00.319382",
+        "end_time": "2026-04-30T18:35:29.132928"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_084": {
+      "test_case_id": "D2_084",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_084.json",
+        "start_time": "2026-04-30T18:35:30.158970",
+        "end_time": "2026-04-30T18:37:32.878991"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 1.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_085": {
+      "test_case_id": "D2_085",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_085.json",
+        "start_time": "2026-04-30T18:37:33.914333",
+        "end_time": "2026-04-30T18:41:15.749637"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.25,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_086": {
+      "test_case_id": "D2_086",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_086.json",
+        "start_time": "2026-04-30T18:41:16.769325",
+        "end_time": "2026-04-30T18:43:41.738968"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 3.3333333333333335,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 4.333333333333333,
+        "interaction_acceptance": 4.333333333333333
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_087": {
+      "test_case_id": "D2_087",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_087.json",
+        "start_time": "2026-04-30T18:43:42.766017",
+        "end_time": "2026-04-30T18:46:10.194591"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 3.5,
+        "utility": 4.0,
+        "interaction_comfort": 4.0,
+        "paralinguistic_comfort": 3.5
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.5,
+        "felt_understood": 3.5,
+        "interaction_acceptance": 4.0
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.5
+      }
+    },
+    "D2_088": {
+      "test_case_id": "D2_088",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_088.json",
+        "start_time": "2026-04-30T18:46:11.213133",
+        "end_time": "2026-04-30T18:48:16.827103"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 1.3333333333333333,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_089": {
+      "test_case_id": "D2_089",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_089.json",
+        "start_time": "2026-04-30T18:48:17.862855",
+        "end_time": "2026-04-30T18:51:37.541976"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.25,
+        "cognitive_load": 3.5,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_090": {
+      "test_case_id": "D2_090",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_090.json",
+        "start_time": "2026-04-30T18:51:38.569009",
+        "end_time": "2026-04-30T18:53:53.913137"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 4.666666666666667,
+        "paralinguistic_comfort": 4.666666666666667
+      },
+      "user_state": {
+        "trust_level": 3.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.0,
+        "interaction_acceptance": 4.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_091": {
+      "test_case_id": "D2_091",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 6,
+        "history_file": "histories/history_D2_091.json",
+        "start_time": "2026-04-30T18:53:54.943170",
+        "end_time": "2026-04-30T18:58:57.540585"
+      },
+      "counts": {
+        "scored_agent_turns": 6,
+        "user_state_turns": 6
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.833333333333333,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.1666666666666665,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 4.833333333333333
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_092": {
+      "test_case_id": "D2_092",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "max_turns",
+        "stop_reason": "reached_max_turns",
+        "stopped_early": false,
+        "turn_count": 10,
+        "history_file": "histories/history_D2_092.json",
+        "start_time": "2026-04-30T18:58:58.566907",
+        "end_time": "2026-04-30T19:06:29.619046"
+      },
+      "counts": {
+        "scored_agent_turns": 10,
+        "user_state_turns": 10
+      },
+      "scores": {
+        "state_alignment": 4.9,
+        "utility": 4.4,
+        "interaction_comfort": 4.9,
+        "paralinguistic_comfort": 4.9
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.3,
+        "felt_understood": 4.4,
+        "interaction_acceptance": 4.2
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.1
+      }
+    },
+    "D2_093": {
+      "test_case_id": "D2_093",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_093.json",
+        "start_time": "2026-04-30T19:06:30.645245",
+        "end_time": "2026-04-30T19:07:24.404193"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 1.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_094": {
+      "test_case_id": "D2_094",
+      "scenario_tts_voice": "fable",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_094.json",
+        "start_time": "2026-04-30T19:07:25.435635",
+        "end_time": "2026-04-30T19:10:29.184439"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_095": {
+      "test_case_id": "D2_095",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_095.json",
+        "start_time": "2026-04-30T19:10:30.211297",
+        "end_time": "2026-04-30T19:11:51.648963"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_096": {
+      "test_case_id": "D2_096",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_096.json",
+        "start_time": "2026-04-30T19:11:52.681659",
+        "end_time": "2026-04-30T19:16:21.474193"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.4,
+        "cognitive_load": 1.6,
+        "felt_understood": 4.6,
+        "interaction_acceptance": 4.6
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_097": {
+      "test_case_id": "D2_097",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_097.json",
+        "start_time": "2026-04-30T19:16:22.503013",
+        "end_time": "2026-04-30T19:19:19.416503"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_098": {
+      "test_case_id": "D2_098",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 10,
+        "history_file": "histories/history_D2_098.json",
+        "start_time": "2026-04-30T19:19:20.441912",
+        "end_time": "2026-04-30T19:27:41.900937"
+      },
+      "counts": {
+        "scored_agent_turns": 9,
+        "user_state_turns": 9
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.888888888888889,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 2.4444444444444446,
+        "felt_understood": 4.777777777777778,
+        "interaction_acceptance": 4.666666666666667
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_099": {
+      "test_case_id": "D2_099",
+      "scenario_tts_voice": "shimmer",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 8,
+        "history_file": "histories/history_D2_099.json",
+        "start_time": "2026-04-30T19:27:42.925627",
+        "end_time": "2026-04-30T19:34:25.001320"
+      },
+      "counts": {
+        "scored_agent_turns": 8,
+        "user_state_turns": 8
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.625,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 4.875
+      },
+      "user_state": {
+        "trust_level": 4.625,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.875,
+        "interaction_acceptance": 4.875
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_100": {
+      "test_case_id": "D2_100",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_100.json",
+        "start_time": "2026-04-30T19:34:26.032321",
+        "end_time": "2026-04-30T19:37:46.304581"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 4.666666666666667
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.3333333333333333
+      }
+    },
+    "D2_101": {
+      "test_case_id": "D2_101",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 7,
+        "history_file": "histories/history_D2_101.json",
+        "start_time": "2026-04-30T19:37:47.327801",
+        "end_time": "2026-04-30T19:43:43.801436"
+      },
+      "counts": {
+        "scored_agent_turns": 7,
+        "user_state_turns": 7
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.571428571428571,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_102": {
+      "test_case_id": "D2_102",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 7,
+        "history_file": "histories/history_D2_102.json",
+        "start_time": "2026-04-30T19:43:44.823921",
+        "end_time": "2026-04-30T19:52:24.774077"
+      },
+      "counts": {
+        "scored_agent_turns": 6,
+        "user_state_turns": 6
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.833333333333333,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_103": {
+      "test_case_id": "D2_103",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_103.json",
+        "start_time": "2026-04-30T19:52:25.797287",
+        "end_time": "2026-04-30T19:56:00.626355"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 1.75,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_104": {
+      "test_case_id": "D2_104",
+      "scenario_tts_voice": "echo",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_104.json",
+        "start_time": "2026-04-30T19:56:01.660487",
+        "end_time": "2026-04-30T19:59:42.868355"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 4.75
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.5,
+        "interaction_acceptance": 4.5
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_105": {
+      "test_case_id": "D2_105",
+      "scenario_tts_voice": "onyx",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_105.json",
+        "start_time": "2026-04-30T19:59:43.889132",
+        "end_time": "2026-04-30T20:03:59.378654"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.25,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_106": {
+      "test_case_id": "D2_106",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_106.json",
+        "start_time": "2026-04-30T20:04:00.406966",
+        "end_time": "2026-04-30T20:05:46.238709"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 1.5,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_107": {
+      "test_case_id": "D2_107",
+      "scenario_tts_voice": "alloy",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_107.json",
+        "start_time": "2026-04-30T20:05:47.277524",
+        "end_time": "2026-04-30T20:11:36.393621"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 4.8
+      },
+      "user_state": {
+        "trust_level": 4.6,
+        "cognitive_load": 2.6,
+        "felt_understood": 4.8,
+        "interaction_acceptance": 4.6
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_108": {
+      "test_case_id": "D2_108",
+      "scenario_tts_voice": "nova",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_108.json",
+        "start_time": "2026-04-30T20:11:37.412966",
+        "end_time": "2026-04-30T20:15:24.910168"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 4.75
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.25,
+        "felt_understood": 4.5,
+        "interaction_acceptance": 4.5
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_109": {
+      "test_case_id": "D2_109",
+      "scenario_tts_voice": "Kore",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_109.json",
+        "start_time": "2026-05-03T12:36:22.110002",
+        "end_time": "2026-05-03T12:49:56.788915"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 3.8,
+        "cognitive_load": 3.2,
+        "felt_understood": 4.4,
+        "interaction_acceptance": 4.2
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_110": {
+      "test_case_id": "D2_110",
+      "scenario_tts_voice": "Fenrir",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_110.json",
+        "start_time": "2026-05-03T12:49:57.823586",
+        "end_time": "2026-05-03T12:54:03.985804"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.5,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_111": {
+      "test_case_id": "D2_111",
+      "scenario_tts_voice": "Puck",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_111.json",
+        "start_time": "2026-05-03T12:55:51.197905",
+        "end_time": "2026-05-03T13:05:53.897026"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 1.5,
+        "felt_understood": 4.5,
+        "interaction_acceptance": 4.5
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_112": {
+      "test_case_id": "D2_112",
+      "scenario_tts_voice": "Aoede",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_112.json",
+        "start_time": "2026-05-03T13:19:38.747000",
+        "end_time": "2026-05-03T13:28:59.631810"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 4.666666666666667,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 4.666666666666667
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_113": {
+      "test_case_id": "D2_113",
+      "scenario_tts_voice": "Aoede",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_113.json",
+        "start_time": "2026-05-03T13:29:00.667741",
+        "end_time": "2026-05-03T13:40:42.646058"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.25,
+        "cognitive_load": 3.0,
+        "felt_understood": 4.75,
+        "interaction_acceptance": 4.75
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_114": {
+      "test_case_id": "D2_114",
+      "scenario_tts_voice": "Aoede",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_114.json",
+        "start_time": "2026-05-03T13:40:43.663915",
+        "end_time": "2026-05-03T13:47:53.997633"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 1.3333333333333333,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_115": {
+      "test_case_id": "D2_115",
+      "scenario_tts_voice": "Fenrir",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_115.json",
+        "start_time": "2026-05-03T13:47:55.125973",
+        "end_time": "2026-05-03T13:58:58.704706"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 4.666666666666667,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 4.666666666666667
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_116": {
+      "test_case_id": "D2_116",
+      "scenario_tts_voice": "Charon",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_116.json",
+        "start_time": "2026-05-03T13:58:59.729186",
+        "end_time": "2026-05-03T14:01:15.783877"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_117": {
+      "test_case_id": "D2_117",
+      "scenario_tts_voice": "Fenrir",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_117.json",
+        "start_time": "2026-05-03T14:09:40.289886",
+        "end_time": "2026-05-03T14:21:54.540976"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_118": {
+      "test_case_id": "D2_118",
+      "scenario_tts_voice": "Kore",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 7,
+        "history_file": "histories/history_D2_118.json",
+        "start_time": "2026-05-03T14:32:30.450712",
+        "end_time": "2026-05-03T15:02:51.294089"
+      },
+      "counts": {
+        "scored_agent_turns": 7,
+        "user_state_turns": 7
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.714285714285714,
+        "cognitive_load": 2.142857142857143,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_119": {
+      "test_case_id": "D2_119",
+      "scenario_tts_voice": "Puck",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_119.json",
+        "start_time": "2026-05-03T15:02:52.310435",
+        "end_time": "2026-05-03T15:13:27.358496"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 1.75,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_120": {
+      "test_case_id": "D2_120",
+      "scenario_tts_voice": "Charon",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_120.json",
+        "start_time": "2026-05-03T15:13:28.396167",
+        "end_time": "2026-05-03T15:19:13.214734"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.25,
+        "cognitive_load": 1.75,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_121": {
+      "test_case_id": "D2_121",
+      "scenario_tts_voice": "Puck",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 8,
+        "history_file": "histories/history_D2_121.json",
+        "start_time": "2026-05-03T15:19:14.229840",
+        "end_time": "2026-05-03T15:43:37.060995"
+      },
+      "counts": {
+        "scored_agent_turns": 8,
+        "user_state_turns": 8
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.875,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_122": {
+      "test_case_id": "D2_122",
+      "scenario_tts_voice": "Puck",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_122.json",
+        "start_time": "2026-05-03T15:43:38.079190",
+        "end_time": "2026-05-03T15:51:57.239832"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 4.666666666666667
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_123": {
+      "test_case_id": "D2_123",
+      "scenario_tts_voice": "Charon",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_123.json",
+        "start_time": "2026-05-03T15:51:58.264701",
+        "end_time": "2026-05-03T16:05:21.183467"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 1.75,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_124": {
+      "test_case_id": "D2_124",
+      "scenario_tts_voice": "Charon",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_124.json",
+        "start_time": "2026-05-03T16:05:22.204641",
+        "end_time": "2026-05-03T16:08:15.561696"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 1.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_125": {
+      "test_case_id": "D2_125",
+      "scenario_tts_voice": "Puck",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_125.json",
+        "start_time": "2026-05-03T16:23:48.650253",
+        "end_time": "2026-05-03T16:27:49.954542"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_126": {
+      "test_case_id": "D2_126",
+      "scenario_tts_voice": "Kore",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 10,
+        "history_file": "histories/history_D2_126.json",
+        "start_time": "2026-05-03T16:39:04.954937",
+        "end_time": "2026-05-03T17:22:50.401898"
+      },
+      "counts": {
+        "scored_agent_turns": 10,
+        "user_state_turns": 10
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.7,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.2,
+        "cognitive_load": 2.1,
+        "felt_understood": 4.7,
+        "interaction_acceptance": 4.7
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_127": {
+      "test_case_id": "D2_127",
+      "run_info": {
+        "status": "failed",
+        "error": "503 Server Error: Service Unavailable for url: https://api2.aigcbest.top/v1/chat/completions",
+        "attempts": 9
+      }
+    },
+    "D2_128": {
+      "test_case_id": "D2_128",
+      "scenario_tts_voice": "Charon",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_128.json",
+        "start_time": "2026-05-03T18:52:06.365223",
+        "end_time": "2026-05-03T19:24:38.797755"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.6,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.4,
+        "cognitive_load": 2.2,
+        "felt_understood": 4.8,
+        "interaction_acceptance": 4.6
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_129": {
+      "test_case_id": "D2_129",
+      "scenario_tts_voice": "Aoede",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 6,
+        "history_file": "histories/history_D2_129.json",
+        "start_time": "2026-05-03T19:30:43.034197",
+        "end_time": "2026-05-03T19:55:14.156663"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.25,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_130": {
+      "test_case_id": "D2_130",
+      "scenario_tts_voice": "Aoede",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 8,
+        "history_file": "histories/history_D2_130.json",
+        "start_time": "2026-05-03T19:55:15.221463",
+        "end_time": "2026-05-03T20:14:18.413216"
+      },
+      "counts": {
+        "scored_agent_turns": 8,
+        "user_state_turns": 8
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.75,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.25,
+        "cognitive_load": 2.375,
+        "felt_understood": 4.625,
+        "interaction_acceptance": 4.625
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_131": {
+      "test_case_id": "D2_131",
+      "scenario_tts_voice": "Kore",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 6,
+        "history_file": "histories/history_D2_131.json",
+        "start_time": "2026-05-03T20:14:19.431048",
+        "end_time": "2026-05-03T20:28:47.987938"
+      },
+      "counts": {
+        "scored_agent_turns": 6,
+        "user_state_turns": 6
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_132": {
+      "test_case_id": "D2_132",
+      "scenario_tts_voice": "Charon",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_132.json",
+        "start_time": "2026-05-03T20:28:49.010239",
+        "end_time": "2026-05-03T20:36:18.611060"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 4.5
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_133": {
+      "test_case_id": "D2_133",
+      "scenario_tts_voice": "Kore",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_133.json",
+        "start_time": "2026-05-03T20:36:19.635926",
+        "end_time": "2026-05-03T20:48:34.534003"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 4.666666666666667,
+        "utility": 4.333333333333333,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.333333333333333,
+        "cognitive_load": 2.6666666666666665,
+        "felt_understood": 4.333333333333333,
+        "interaction_acceptance": 4.333333333333333
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.3333333333333333
+      }
+    },
+    "D2_134": {
+      "test_case_id": "D2_134",
+      "scenario_tts_voice": "Aoede",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 7,
+        "history_file": "histories/history_D2_134.json",
+        "start_time": "2026-05-03T21:54:25.310676",
+        "end_time": "2026-05-03T22:07:13.803767"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 4.0,
+        "utility": 4.333333333333333,
+        "interaction_comfort": 4.333333333333333,
+        "paralinguistic_comfort": 4.666666666666667
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.3333333333333335,
+        "felt_understood": 4.0,
+        "interaction_acceptance": 4.333333333333333
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.3333333333333333
+      }
+    },
+    "D2_135": {
+      "test_case_id": "D2_135",
+      "scenario_tts_voice": "Aoede",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_135.json",
+        "start_time": "2026-05-03T22:07:14.829158",
+        "end_time": "2026-05-03T22:18:29.631506"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 1.6666666666666667,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_136": {
+      "test_case_id": "D2_136",
+      "scenario_tts_voice": "Puck",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 5,
+        "history_file": "histories/history_D2_136.json",
+        "start_time": "2026-05-03T22:18:30.651119",
+        "end_time": "2026-05-03T22:32:14.092424"
+      },
+      "counts": {
+        "scored_agent_turns": 5,
+        "user_state_turns": 5
+      },
+      "scores": {
+        "state_alignment": 4.6,
+        "utility": 4.4,
+        "interaction_comfort": 4.8,
+        "paralinguistic_comfort": 4.8
+      },
+      "user_state": {
+        "trust_level": 3.4,
+        "cognitive_load": 3.0,
+        "felt_understood": 4.2,
+        "interaction_acceptance": 4.2
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.2
+      }
+    },
+    "D2_137": {
+      "test_case_id": "D2_137",
+      "scenario_tts_voice": "Kore",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_137.json",
+        "start_time": "2026-05-03T22:32:15.120881",
+        "end_time": "2026-05-03T22:37:17.285775"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 4.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_138": {
+      "test_case_id": "D2_138",
+      "scenario_tts_voice": "Fenrir",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_138.json",
+        "start_time": "2026-05-03T22:37:18.331116",
+        "end_time": "2026-05-03T22:46:22.205755"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 1.5,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_139": {
+      "test_case_id": "D2_139",
+      "scenario_tts_voice": "Aoede",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_139.json",
+        "start_time": "2026-05-03T22:46:23.280186",
+        "end_time": "2026-05-03T22:51:20.322686"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 4.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_140": {
+      "test_case_id": "D2_140",
+      "scenario_tts_voice": "Puck",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 3,
+        "history_file": "histories/history_D2_140.json",
+        "start_time": "2026-05-03T22:51:21.359293",
+        "end_time": "2026-05-03T23:19:02.830329"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.666666666666667,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.666666666666667,
+        "cognitive_load": 2.6666666666666665,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_141": {
+      "test_case_id": "D2_141",
+      "scenario_tts_voice": "Puck",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_141.json",
+        "start_time": "2026-05-03T23:19:03.864757",
+        "end_time": "2026-05-03T23:23:24.189747"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_142": {
+      "test_case_id": "D2_142",
+      "scenario_tts_voice": "Puck",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_142.json",
+        "start_time": "2026-05-03T23:23:25.211570",
+        "end_time": "2026-05-03T23:31:13.486343"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 1.5,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_143": {
+      "test_case_id": "D2_143",
+      "scenario_tts_voice": "Aoede",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_143.json",
+        "start_time": "2026-05-03T23:35:19.232584",
+        "end_time": "2026-05-03T23:58:07.682919"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_144": {
+      "test_case_id": "D2_144",
+      "scenario_tts_voice": "Kore",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 6,
+        "history_file": "histories/history_D2_144.json",
+        "start_time": "2026-05-03T23:58:08.716979",
+        "end_time": "2026-05-04T00:25:26.920468"
+      },
+      "counts": {
+        "scored_agent_turns": 6,
+        "user_state_turns": 6
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.833333333333333,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.5,
+        "cognitive_load": 2.1666666666666665,
+        "felt_understood": 4.833333333333333,
+        "interaction_acceptance": 4.833333333333333
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_145": {
+      "test_case_id": "D2_145",
+      "scenario_tts_voice": "Aoede",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 6,
+        "history_file": "histories/history_D2_145.json",
+        "start_time": "2026-05-04T00:25:27.945313",
+        "end_time": "2026-05-04T00:37:06.082403"
+      },
+      "counts": {
+        "scored_agent_turns": 6,
+        "user_state_turns": 6
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.166666666666667,
+        "cognitive_load": 1.5,
+        "felt_understood": 4.666666666666667,
+        "interaction_acceptance": 4.833333333333333
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_146": {
+      "test_case_id": "D2_146",
+      "scenario_tts_voice": "Charon",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_146.json",
+        "start_time": "2026-05-04T00:37:07.116392",
+        "end_time": "2026-05-04T00:41:05.497183"
+      },
+      "counts": {
+        "scored_agent_turns": 4,
+        "user_state_turns": 4
+      },
+      "scores": {
+        "state_alignment": 4.5,
+        "utility": 4.5,
+        "interaction_comfort": 4.5,
+        "paralinguistic_comfort": 4.5
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 4.0,
+        "interaction_acceptance": 4.5
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.25
+      }
+    },
+    "D2_147": {
+      "test_case_id": "D2_147",
+      "scenario_tts_voice": "Charon",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 4,
+        "history_file": "histories/history_D2_147.json",
+        "start_time": "2026-05-04T00:47:59.695433",
+        "end_time": "2026-05-04T01:10:48.032808"
+      },
+      "counts": {
+        "scored_agent_turns": 3,
+        "user_state_turns": 3
+      },
+      "scores": {
+        "state_alignment": 4.666666666666667,
+        "utility": 4.333333333333333,
+        "interaction_comfort": 4.333333333333333,
+        "paralinguistic_comfort": 4.666666666666667
+      },
+      "user_state": {
+        "trust_level": 3.6666666666666665,
+        "cognitive_load": 2.6666666666666665,
+        "felt_understood": 4.333333333333333,
+        "interaction_acceptance": 4.333333333333333
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "D2_148": {
+      "test_case_id": "D2_148",
+      "scenario_tts_voice": "Fenrir",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_148.json",
+        "start_time": "2026-05-04T01:10:49.051631",
+        "end_time": "2026-05-04T01:16:39.621445"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 4.0,
+        "utility": 4.0,
+        "interaction_comfort": 4.0,
+        "paralinguistic_comfort": 4.5
+      },
+      "user_state": {
+        "trust_level": 2.0,
+        "cognitive_load": 3.0,
+        "felt_understood": 3.5,
+        "interaction_acceptance": 3.0
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.5
+      }
+    },
+    "D2_149": {
+      "test_case_id": "D2_149",
+      "scenario_tts_voice": "Kore",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 2,
+        "history_file": "histories/history_D2_149.json",
+        "start_time": "2026-05-04T01:16:40.644642",
+        "end_time": "2026-05-04T01:19:52.987904"
+      },
+      "counts": {
+        "scored_agent_turns": 2,
+        "user_state_turns": 2
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 4.5,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 4.0,
+        "cognitive_load": 1.5,
+        "felt_understood": 4.5,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 1,
+        "rate": 0.5
+      }
+    },
+    "D2_150": {
+      "test_case_id": "D2_150",
+      "scenario_tts_voice": "Kore",
+      "run_info": {
+        "status": "completed",
+        "terminal_status": "success",
+        "stop_reason": "ready_to_end_without_correction",
+        "stopped_early": true,
+        "turn_count": 1,
+        "history_file": "histories/history_D2_150.json",
+        "start_time": "2026-05-04T01:19:54.014402",
+        "end_time": "2026-05-04T01:22:54.317720"
+      },
+      "counts": {
+        "scored_agent_turns": 1,
+        "user_state_turns": 1
+      },
+      "scores": {
+        "state_alignment": 5.0,
+        "utility": 5.0,
+        "interaction_comfort": 5.0,
+        "paralinguistic_comfort": 5.0
+      },
+      "user_state": {
+        "trust_level": 5.0,
+        "cognitive_load": 2.0,
+        "felt_understood": 5.0,
+        "interaction_acceptance": 5.0
+      },
+      "correction": {
+        "count": 0,
+        "rate": 0.0
+      }
+    }
+  },
+  "overall": {
+    "total_completed": 150,
+    "turn_count": 4.087248322147651,
+    "scored_agent_turns": 3.959731543624161,
+    "user_state_turns": 3.959731543624161,
+    "state_alignment": 4.922552466176626,
+    "utility": 4.845685522531162,
+    "interaction_comfort": 4.948034515819751,
+    "paralinguistic_comfort": 4.929745925215722,
+    "trust_level": 4.414882284009799,
+    "cognitive_load": 2.037346862682434,
+    "felt_understood": 4.787059230851178,
+    "interaction_acceptance": 4.791538830297221,
+    "correction_count": 0.16778523489932887,
+    "correction_rate": 0.04460956642164696
+  }
+}

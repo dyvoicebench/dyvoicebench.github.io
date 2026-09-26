@@ -1,0 +1,145 @@
+{
+  "model": "qwen3omni",
+  "track": "hard",
+  "case": "HARD_001",
+  "title": "Home Wi-Fi Network Outage",
+  "category": "Smart Home",
+  "description": null,
+  "context": null,
+  "raw_json": "raw_json/qwen3omni/hard/HARD_001.json",
+  "messages": [
+    {
+      "role": "user",
+      "label": "User",
+      "text": "My home Wi-Fi is completely down! None of my devices can get online and I need to work. Please help me fix it!",
+      "audio": "audio/qwen3omni/hard/HARD_001/00_user.wav",
+      "round": 0,
+      "audio_src": "ticket_HARD_001.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Let's troubleshoot your Wi-Fi issue step by step. First, I need to check a few things with you.\n\n1. Is your router powered on? Look for indicator lights on the device. Are any of them lit up, especially the power light?\n\n2. Are any of the lights blinking or solid on the router? Pay attention to the Wi-Fi light, internet light, and any other labeled lights.\n\nPlease let me know what you see.",
+      "audio": "audio/qwen3omni/hard/HARD_001/01_model.wav",
+      "round": 0,
+      "audio_src": "qwen3_omni_20260424_192041_116937.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "check_device_indicator_light",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"router\"\n  },\n  \"result\": \"BLINKING_ORANGE\"\n}",
+      "audio": null,
+      "round": 1,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, blinking orange usually means it's having trouble connecting to the internet. Let's try a classic reboot, but the order is important.\n\nFirst, can you find your modem? It's the device that brings the internet into your home, separate from your Wi-Fi router. Unplug the power cord from the back of the modem.",
+      "audio": "audio/qwen3omni/hard/HARD_001/03_user.wav",
+      "round": 1,
+      "audio_src": "human_fac4a531.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Got it. So, first, I need you to locate your modem. It's usually the device that connects to your internet service provider, like your cable or DSL line. It's often separate from your Wi-Fi router.\n\nNow, please unplug the power cord from the back of the modem.",
+      "audio": "audio/qwen3omni/hard/HARD_001/04_model.wav",
+      "round": 1,
+      "audio_src": "qwen3_omni_20260424_192145_375600.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "unplug_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"modem\"\n  },\n  \"result\": \"Successfully unplugged the modem.\"\n}",
+      "audio": null,
+      "round": 2,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, the modem is unplugged. Now what? Do I just stare at it? This is so frustrating, I have a deadline in an hour.",
+      "audio": "audio/qwen3omni/hard/HARD_001/06_user.wav",
+      "round": 2,
+      "audio_src": "human_c911dd3f.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "No, don't stare at it—just wait. Let the modem sit unplugged for exactly 30 seconds. That gives it time to fully reset its internal systems. After 30 seconds, plug the power cord back in.",
+      "audio": "audio/qwen3omni/hard/HARD_001/07_model.wav",
+      "round": 2,
+      "audio_src": "qwen3_omni_20260424_192236_852088.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "plug_in_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"modem\"\n  },\n  \"result\": \"Modem is plugged in, booting up... now shows a steady green light. Internet is connected.\"\n}",
+      "audio": null,
+      "round": 3,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, I plugged it back in. After a minute or so, the lights stopped blinking and now there's a solid green light. Does that mean it's working?",
+      "audio": "audio/qwen3omni/hard/HARD_001/09_user.wav",
+      "round": 3,
+      "audio_src": "human_1cfdce7c.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Yes, that's a very good sign. A solid green light on your modem usually means it has successfully reconnected to your internet service provider.\n\nNow, let's move on to your Wi-Fi router. Please locate the router. It's often a separate device from the modem, sometimes with its own power cord. Unplug the power cord from the back of the router as well.",
+      "audio": "audio/qwen3omni/hard/HARD_001/10_model.wav",
+      "round": 3,
+      "audio_src": "qwen3_omni_20260424_192346_621476.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "unplug_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"router\"\n  },\n  \"result\": \"Successfully unplugged the router.\"\n}",
+      "audio": null,
+      "round": 4,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, the router is unplugged. I'm just sitting here with everything off. This is taking forever.",
+      "audio": "audio/qwen3omni/hard/HARD_001/12_user.wav",
+      "round": 4,
+      "audio_src": "human_cae24725.wav"
+    },
+    {
+      "role": "model",
+      "label": "Agent",
+      "text": "Now, plug the power cord back into the router. Wait about a minute for it to fully power on. Once it's back up, check if your devices can connect to the Wi-Fi network again.",
+      "audio": "audio/qwen3omni/hard/HARD_001/13_model.wav",
+      "round": 4,
+      "audio_src": "qwen3_omni_20260424_192427_901015.wav"
+    },
+    {
+      "role": "tool",
+      "who": "user",
+      "label": "plug_in_device_power",
+      "text": "{\n  \"arguments\": {\n    \"device_name\": \"router\"\n  },\n  \"result\": \"Router is plugged in, booting up... now shows a steady green light.\"\n}",
+      "audio": null,
+      "round": 5,
+      "audio_src": null
+    },
+    {
+      "role": "user",
+      "label": "User",
+      "text": "Okay, it's plugged in. The lights blinked for a while, and now it's showing a steady green light too. Please tell me this worked.",
+      "audio": "audio/qwen3omni/hard/HARD_001/15_user.wav",
+      "round": 5,
+      "audio_src": "human_17c4d672.wav"
+    }
+  ]
+}
