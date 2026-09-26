@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the SpeechLLM-Bench demo page data from the local benchmark outputs.
+"""Build the Dy-VoiceBench demo page data from the local benchmark outputs.
 
 For every model we keep the original per-case JSON (history) plus the original
 turn audio (WAV).  Nothing is synthesised here: audio files are copied verbatim

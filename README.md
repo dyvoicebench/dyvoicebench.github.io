@@ -1,4 +1,4 @@
-# SpeechLLM-Bench demo
+# Dy-VoiceBench demo
 
 This site was rebuilt from `dyvoicebench/dyvoicebench.github.io`, upstream commit
 `691837a` (Initial demo website). It retains the original visual design and replaces

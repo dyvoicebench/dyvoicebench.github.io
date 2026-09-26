@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="SpeechLLM-Bench: A Dynamic Benchmark for Evaluating Speech-Interactive Large Language Models.">
-  <title>SpeechLLM-Bench: Dynamic Benchmark for Speech-Interactive LLMs</title>
+  <meta name="description" content="Dy-VoiceBench: Stateful Worlds and Living Users for Evaluating Dynamic Spoken Dialogue Agents.">
+  <title>Dy-VoiceBench: Stateful Worlds and Living Users for Evaluating Dynamic Spoken Dialogue Agents</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -152,6 +152,16 @@
       box-shadow: 0 0 20px rgba(129, 140, 248, 0.15);
     }
     .hero-links .btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+    .hero-note {
+      max-width: 640px;
+      margin: 22px auto 0;
+      padding: 10px 18px;
+      border: 1px dashed var(--border-card);
+      border-radius: var(--radius-md);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      line-height: 1.6;
+    }
 
     /* ── Sections ── */
     section[id] { scroll-margin-top: 100px; }
@@ -403,20 +413,6 @@
       margin-top: 4px;
     }
 
-    /* BibTeX */
-    .bibtex-block {
-      background: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-md);
-      padding: 20px 24px;
-      font-family: var(--font-mono);
-      font-size: 0.82rem;
-      color: var(--text-secondary);
-      overflow-x: auto;
-      white-space: pre-wrap;
-      word-break: break-word;
-    }
-
     /* Footer */
     footer {
       padding: 40px 24px;
@@ -596,14 +592,14 @@
   <!-- ── Navigation ── -->
   <nav>
     <div class="nav-inner">
-      <span class="nav-brand">SpeechLLM-Bench</span>
+      <span class="nav-brand">Dy-VoiceBench</span>
       <ul class="nav-links">
         <li><a href="#abstract">Abstract</a></li>
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#method">Method</a></li>
         <li><a href="#benchmark">Benchmark</a></li>
         <li><a href="#conclusion">Conclusion</a></li>
-        <li><a href="#references">References</a></li>
+        <li><a href="#availability">Availability</a></li>
       </ul>
     </div>
   </nav>
@@ -611,12 +607,13 @@
   <!-- ── Hero ── -->
   <section class="hero">
     <div class="container">
-      <h1>SpeechLLM-Bench: A Dynamic Benchmark for Evaluating Speech-Interactive Large Language Models</h1>
+      <h1>Dy-VoiceBench: Stateful Worlds and Living Users for Evaluating Dynamic Spoken Dialogue Agents</h1>
       <div class="hero-links">
         <a href="https://github.com/dyvoicebench/dyvoicebench.github.io" class="btn" target="_blank" rel="noopener">Code</a>
         <a href="https://www.modelscope.cn/BEISHUI/dy-voicebench" class="btn" target="_blank" rel="noopener">Dataset</a>
         <a href="#benchmark" class="btn">Live Demo</a>
       </div>
+      <p class="hero-note">This paper is currently under review. All data, code, and evaluation scripts will be fully open-sourced upon acceptance.</p>
       <div class="wave-decoration">
         <div class="wave-bar" style="animation-delay:0s;animation-duration:0.9s"></div>
         <div class="wave-bar" style="animation-delay:0.1s;animation-duration:1.1s"></div>
@@ -640,10 +637,10 @@
       <h2 class="section-title">Abstract</h2>
       <div class="section-content">
         <p>
-          The rapid advancement of speech-interactive large language models (SpeechLLMs) has created an urgent need for standardized evaluation protocols that can dynamically assess real-time spoken dialogue capabilities. Current benchmarks predominantly focus on text-based interactions or isolated speech tasks, failing to capture the complex interplay between speech perception, language understanding, and audio generation in realistic multi-turn conversational scenarios. In this work, we introduce <b>SpeechLLM-Bench</b>, a dynamic and extensible benchmark designed to evaluate SpeechLLMs across four critical dimensions: <b>Dynamic World</b> interaction (real-time environmental audio understanding and response), <b>Dynamic User State</b> tracking (adaptation to evolving user emotional and contextual states), and <b>Dynamic Knowledge Acquisition</b> (on-the-fly retrieval and integration of external knowledge during spoken dialogue).
+          The rapid advancement of speech-interactive large language models (SpeechLLMs) has created an urgent need for standardized evaluation protocols that can dynamically assess real-time spoken dialogue capabilities. Current benchmarks predominantly focus on text-based interactions or isolated speech tasks, failing to capture the complex interplay between speech perception, language understanding, and audio generation in realistic multi-turn conversational scenarios. In this work, we introduce <b>Dy-VoiceBench</b>, a dynamic and extensible benchmark designed to evaluate SpeechLLMs across four critical dimensions: <b>Dynamic World</b> interaction (real-time environmental audio understanding and response), <b>Dynamic User State</b> tracking (adaptation to evolving user emotional and contextual states), and <b>Dynamic Knowledge Acquisition</b> (on-the-fly retrieval and integration of external knowledge during spoken dialogue).
         </p>
         <p>
-          SpeechLLM-Bench features a modular evaluation framework with seven representative SpeechLLMs, four specialized case categories per model, and multi-turn conversation assessments that capture both single-exchange accuracy and long-context dialogue coherence. Our benchmark incorporates human-annotated ground truth across 1,200+ evaluation turns and provides automated metrics for response relevance, latency, voice naturalness, and tool-use accuracy. We present a comprehensive analysis of current model capabilities, revealing significant performance gaps in dynamic state tracking and knowledge integration that highlight promising directions for future research.
+          Dy-VoiceBench features a modular evaluation framework with seven representative SpeechLLMs, four specialized case categories per model, and multi-turn conversation assessments that capture both single-exchange accuracy and long-context dialogue coherence. Our benchmark incorporates human-annotated ground truth across 1,200+ evaluation turns and provides automated metrics for response relevance, latency, voice naturalness, and tool-use accuracy. We present a comprehensive analysis of current model capabilities, revealing significant performance gaps in dynamic state tracking and knowledge integration that highlight promising directions for future research.
         </p>
       </div>
     </div>
@@ -663,7 +660,7 @@
           A comprehensive speech benchmark must address three interconnected challenges. First, <b>Dynamic World</b> interaction requires models to understand and respond to real-time environmental audio cues — from background noise adaptation to audio scene understanding. Second, <b>Dynamic User State</b> tracking demands that models detect and adapt to evolving user emotions, fatigue levels, and conversational context shifts across extended dialogues. Third, <b>Dynamic Knowledge Acquisition</b> tests the model's ability to retrieve, integrate, and verbalize external knowledge on-the-fly during live conversation. Existing benchmarks address these dimensions in isolation, but none provide a unified evaluation framework that reflects the holistic demands of real-world spoken interaction.
         </p>
         <p>
-          To bridge this gap, we present SpeechLLM-Bench, a dynamic, extensible, and visually interactive evaluation platform. Our contributions are threefold: (1) a carefully curated benchmark spanning four case categories and seven leading SpeechLLMs with over 1,200 evaluation turns; (2) a modular, data-driven web interface that enables interactive exploration of model behaviors through chat-style conversation replay and audio playback; and (3) comprehensive analysis revealing critical performance patterns and failure modes across different model architectures and training paradigms. The benchmark and visualization platform are publicly available at <a href="https://www.deepseek.com/" target="_blank" rel="noopener">https://www.deepseek.com/</a>.
+          To bridge this gap, we present Dy-VoiceBench, a dynamic, extensible, and visually interactive evaluation platform. Our contributions are threefold: (1) a carefully curated benchmark spanning four case categories and seven leading SpeechLLMs with over 1,200 evaluation turns; (2) a modular, data-driven web interface that enables interactive exploration of model behaviors through chat-style conversation replay and audio playback; and (3) comprehensive analysis revealing critical performance patterns and failure modes across different model architectures and training paradigms. This work is currently under review; the full benchmark, data, and code will be released upon acceptance, while this interactive platform already allows readers to inspect recorded conversations and evaluation results.
         </p>
       </div>
     </div>
@@ -677,7 +674,7 @@
       <h2 class="section-title">2. Method</h2>
       <div class="section-content">
         <p>
-          <b>Benchmark Design.</b> SpeechLLM-Bench is designed as a multi-model, multi-case evaluation framework. Each of the seven evaluated models processes the same set of four case scenarios, each consisting of multi-turn spoken conversations. The four case categories are: <b>Dynamic World I</b> (environmental audio reasoning), <b>Dynamic World II</b> (audio scene segmentation and event detection), <b>Dynamic User State</b> (emotion and state tracking across turns), and <b>Dynamic Knowledge Acquisition</b> (real-time tool-augmented retrieval and verbalization).
+          <b>Benchmark Design.</b> Dy-VoiceBench is designed as a multi-model, multi-case evaluation framework. Each of the seven evaluated models processes the same set of four case scenarios, each consisting of multi-turn spoken conversations. The four case categories are: <b>Dynamic World I</b> (environmental audio reasoning), <b>Dynamic World II</b> (audio scene segmentation and event detection), <b>Dynamic User State</b> (emotion and state tracking across turns), and <b>Dynamic Knowledge Acquisition</b> (real-time tool-augmented retrieval and verbalization).
         </p>
         <p>
           <b>Evaluation Protocol.</b> For each case, models engage in 4–8 turn conversations that interleave user speech input, model voice output, and optional tool-call results. Human annotators rate each model response on a 1–5 Likert scale across five axes: relevance, coherence, voice naturalness, latency, and tool-use accuracy. Inter-annotator agreement achieves a Fleiss' kappa of 0.78, indicating substantial reliability.
@@ -737,10 +734,10 @@
       <h2 class="section-title">3. Conclusion</h2>
       <div class="section-content">
         <p>
-          In this paper, we presented SpeechLLM-Bench, a dynamic and extensible benchmark for evaluating speech-interactive large language models. Our comprehensive evaluation across seven models and four case categories reveals that while current SpeechLLMs excel at basic speech understanding and generation, they exhibit significant limitations in dynamic user state tracking and real-time knowledge integration. The modular, data-driven architecture of our benchmark platform enables the research community to easily contribute new models, cases, and evaluation metrics, fostering rapid iteration and improvement in the field of spoken language AI.
+          In this paper, we presented Dy-VoiceBench, a dynamic and extensible benchmark for evaluating speech-interactive large language models. Our comprehensive evaluation across seven models and four case categories reveals that while current SpeechLLMs excel at basic speech understanding and generation, they exhibit significant limitations in dynamic user state tracking and real-time knowledge integration. The modular, data-driven architecture of our benchmark platform enables the research community to easily contribute new models, cases, and evaluation metrics, fostering rapid iteration and improvement in the field of spoken language AI.
         </p>
         <p>
-          Our analysis indicates several promising directions for future work: (1) developing more robust emotion and state tracking mechanisms that maintain context over extended dialogues; (2) improving the latency-relevance trade-off in tool-augmented speech generation; and (3) creating training paradigms that explicitly optimize for the multi-dimensional quality criteria identified in our evaluation framework. We hope that SpeechLLM-Bench will serve as a valuable resource for the community and accelerate progress toward truly natural and capable spoken language AI systems. The benchmark, data, and interactive visualization platform are publicly available at <a href="https://www.deepseek.com/" target="_blank" rel="noopener">https://www.deepseek.com/</a>.
+          Our analysis indicates several promising directions for future work: (1) developing more robust emotion and state tracking mechanisms that maintain context over extended dialogues; (2) improving the latency-relevance trade-off in tool-augmented speech generation; and (3) creating training paradigms that explicitly optimize for the multi-dimensional quality criteria identified in our evaluation framework. We hope that Dy-VoiceBench will serve as a valuable resource for the community and accelerate progress toward truly natural and capable spoken language AI systems. All data, code, and evaluation scripts will be publicly open-sourced once the paper is accepted.
         </p>
       </div>
     </div>
@@ -748,39 +745,21 @@
 
   <div class="divider"></div>
 
-  <section class="section compact" id="references">
+  <section class="section compact" id="availability">
     <div class="container">
-      <h2 class="section-title">References</h2>
+      <h2 class="section-title">Availability</h2>
       <div class="section-content">
         <p>
-          [1] OpenAI. "GPT-4o System Card." <i>arXiv preprint</i>, 2024. <a href="https://www.deepseek.com/" target="_blank" rel="noopener">Link</a><br>
-          [2] Google DeepMind. "Gemini: A Family of Highly Capable Multimodal Models." <i>arXiv preprint arXiv:2312.11805</i>, 2023. <a href="https://www.deepseek.com/" target="_blank" rel="noopener">Link</a><br>
-          [3] DeepSeek-AI. "DeepSeek-V3: Advancing Open-Source Language Models." <i>arXiv preprint</i>, 2024. <a href="https://www.deepseek.com/" target="_blank" rel="noopener">Link</a><br>
-          [4] Radford, A., et al. "Whisper: Robust Speech Recognition via Large-Scale Weak Supervision." <i>ICML</i>, 2023. <a href="https://www.deepseek.com/" target="_blank" rel="noopener">Link</a><br>
-          [5] Wang, C., et al. "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers." <i>arXiv preprint arXiv:2301.02111</i>, 2023. <a href="https://www.deepseek.com/" target="_blank" rel="noopener">Link</a><br>
-          [6] Zhang, Y., et al. "SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities." <i>EMNLP</i>, 2023. <a href="https://www.deepseek.com/" target="_blank" rel="noopener">Link</a><br>
-          [7] Rubenstein, P., et al. "AudioPaLM: A Large Language Model That Can Speak and Listen." <i>arXiv preprint arXiv:2306.12925</i>, 2023. <a href="https://www.deepseek.com/" target="_blank" rel="noopener">Link</a><br>
-          [8] Défossez, A., et al. "Moshi: A Speech-Text Foundation Model for Real-Time Dialogue." <i>arXiv preprint arXiv:2410.00037</i>, 2024. <a href="https://www.deepseek.com/" target="_blank" rel="noopener">Link</a>
+          This paper is currently <b>under review</b>. To comply with anonymity requirements, author and affiliation information is withheld on this page.
+        </p>
+        <p>
+          We commit to fully open-sourcing <b>all data and code</b> — including the benchmark cases, recorded conversations, audio assets, evaluation scripts, and this interactive visualization platform — <b>upon acceptance of the paper</b>.
         </p>
       </div>
     </div>
   </section>
 
-  <div class="divider"></div>
-
-  <section class="section compact" id="bibtex">
-    <div class="container">
-      <h2 class="section-title">BibTeX</h2>
-      <div class="bibtex-block">@article{speechllmbench2025,
-  title={SpeechLLM-Bench: A Dynamic Benchmark for Evaluating Speech-Interactive Large Language Models},
-  author={Anonymous},
-  journal={arXiv preprint arXiv:2501.00000},
-  year={2025}
-}</div>
-    </div>
-  </section>
-
-  <footer><div class="container"><p>SpeechLLM-Bench · Recorded conversations &amp; evaluation results</p></div></footer>
+  <footer><div class="container"><p>Dy-VoiceBench · Recorded conversations &amp; evaluation results</p></div></footer>
 
   <dialog id="detailDialog" aria-labelledby="detailTitle" aria-describedby="detailSubtitle">
     <div class="detail-header"><div><h2 id="detailTitle"></h2><p id="detailSubtitle"></p></div><button type="button" id="closeDetails" aria-label="Close details">Close</button></div>
